@@ -3,6 +3,7 @@
 
 - RStudio Cheat Sheets, https://www.rstudio.com/resources/cheatsheets/
 
+- A selection of printable, one-page cheatsheets, generated from Markdown using Pandoc & LaTeX, https://github.com/kickstartcoding/cheatsheets
 
 ## R packages
 
