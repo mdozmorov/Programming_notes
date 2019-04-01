@@ -19,6 +19,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 - RStudio Cheat Sheets, https://www.rstudio.com/resources/cheatsheets/
 - A selection of printable, one-page cheatsheets, generated from Markdown using Pandoc & LaTeX, https://github.com/kickstartcoding/cheatsheets
+- A CheatSheet for Parallel Computation in R, https://github.com/ardeeshany/Parallel_Computing
 
 ## R packages
 
