@@ -8,6 +8,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 * [R packages](#r-packages)
   * [Visualization](#visualization)
   * [Dimensionality reduction](#dimensionality-reduction)
+  * [Genomics](#genomics)
   * [HowTo](#howto)
     * [Convert continuous to categorical value](#convert-continuous-to-categorical-value)
     * [Barplot with StdErr using standard R graphics](#barplot-with-stderr-using-standard-r-graphics)
@@ -45,6 +46,11 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - Multiple Correspondence Analysis with FactoMineR. https://francoishusson.wordpress.com/2017/07/18/multiple-correspondence-analysis-with-factominer/
 - Missing values imputation with missMDA. Missing values imputation with missMDA
 - PCA, https://amunategui.github.io/high-demensions-pca/. caret::nearZeroVariance
+
+### Genomics
+
+- Lightweight Iterative Gene set Enrichment in R https://CRAN.R-project.org/package=liger, https://github.com/JEFworks/liger
+
 
 ### HowTo
 
