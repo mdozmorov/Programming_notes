@@ -26,6 +26,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 - Steps to contribute packages to Bioconductor https://github.com/Bioconductor/Contributions
 - Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together. http://laderast.github.io/2019/02/12/package-building-description-namespace/
+- Automate testing of your R package using Travis CI, Codecov, and testthat. https://jef.works/blog/2019/02/17/automate-testing-of-your-R-package/
 
 ### Visualization
 
