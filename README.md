@@ -13,7 +13,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
     * [Barplot with StdErr using standard R graphics](#barplot-with-stderr-using-standard-r-graphics)
   * [Misc](#misc)
     * [R questions](#r-questions)
-
+* [Cloud computing](#cloud-computing)
 
 ## Cheatsheets
 
@@ -85,3 +85,7 @@ arrows(BP, means.nf - (2*StdErr.nf), BP,  means.nf + (2*StdErr.nf), lwd = 1.5, a
 - How to create scatterplot matrices? Pair() or splom() function is used for create scatterplot matrices.
 - Define leaps(). It is used to perform the all-subsets regression and it is defined under the leaps package.
 - Define cluster.stats(). It is define in fpc package which provide a method for comparing the similarity of two clusters solution using different validation criteria.
+
+## Cloud computing
+
+- cyverse tutorial links, https://github.com/crazyhottommy/cyverse_resource
