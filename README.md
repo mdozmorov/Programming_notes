@@ -93,6 +93,7 @@ arrows(BP, means.nf - (2*StdErr.nf), BP,  means.nf + (2*StdErr.nf), lwd = 1.5, a
 - Missing values imputation with missMDA. Missing values imputation with missMDA
 - `imputeTS` - Time Series Missing Value Imputation in R. https://journal.r-project.org/archive/2017/RJ-2017-009/index.html
 - `mice` - Multivariate Imputation by Chained Equations. https://cran.r-project.org/web/packages/mice/index.html
+- `missForest` - Nonparametric Missing Value Imputation using Random Forest. https://cran.r-project.org/web/packages/missForest/index.html
 
 #### R questions
 
