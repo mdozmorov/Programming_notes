@@ -13,6 +13,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
     * [Convert continuous to categorical value](#convert-continuous-to-categorical-value)
     * [Barplot with StdErr using standard R graphics](#barplot-with-stderr-using-standard-r-graphics)
   * [Misc](#misc)
+    * [Imputation](#imputation)
     * [R questions](#r-questions)
 * [Cloud computing](#cloud-computing)
 
@@ -29,6 +30,12 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together. http://laderast.github.io/2019/02/12/package-building-description-namespace/
 - Automate testing of your R package using Travis CI, Codecov, and testthat. https://jef.works/blog/2019/02/17/automate-testing-of-your-R-package/
 
+### README.md
+
+- Cross-reference the package repository under your account to the one under the `dozmorovlab` account. Like: "The developmental version is available at `your GitHub repository`, the stable version is available at `dozmorovlab GitHub repository`"
+- Add BibTex citation and direct link to the paper/preprint. [Example](https://github.com/luoyunan/DTINet)
+- Add contact information considering security. [Example](https://github.com/luoyunan/DTINet)
+
 ### Visualization
 
 - `circlize` - Circular Visualization in R, https://cran.r-project.org/web/packages/circlize/index.html, documentation, http://zuguang.de/circlize_book/book/index.html\
@@ -44,7 +51,6 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - Multiple Factor Analysis to analyse several data tables. https://francoishusson.wordpress.com/2017/07/18/multiple-factor-analysis-to-analyse-several-data-tables/
 - Correspondence Analysis with FactoMineR. https://francoishusson.wordpress.com/2017/07/13/correspondence-analysis-with-factominer/
 - Multiple Correspondence Analysis with FactoMineR. https://francoishusson.wordpress.com/2017/07/18/multiple-correspondence-analysis-with-factominer/
-- Missing values imputation with missMDA. Missing values imputation with missMDA
 - PCA, https://amunategui.github.io/high-demensions-pca/. caret::nearZeroVariance
 
 ### Genomics
@@ -81,6 +87,10 @@ arrows(BP, means.nf - (2*StdErr.nf), BP,  means.nf + (2*StdErr.nf), lwd = 1.5, a
 - Multinomial logistic regression, https://amunategui.github.io/multinomial-neuralnetworks-walkthrough/
 - `pcor` - Partial and Semi-Partial (Part) Correlation, https://cran.r-project.org/web/packages/ppcor/index.html
 - `corpcor` - Efficient Estimation of Covariance and (Partial) Correlation, https://cran.r-project.org/web/packages/corpcor/index.html
+
+#### Imputation
+
+- Missing values imputation with missMDA. Missing values imputation with missMDA
 - `imputeTS` - Time Series Missing Value Imputation in R. https://journal.r-project.org/archive/2017/RJ-2017-009/index.html
 - `mice` - Multivariate Imputation by Chained Equations. https://cran.r-project.org/web/packages/mice/index.html
 
