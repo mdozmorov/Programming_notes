@@ -30,11 +30,11 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together. http://laderast.github.io/2019/02/12/package-building-description-namespace/
 - Automate testing of your R package using Travis CI, Codecov, and testthat. https://jef.works/blog/2019/02/17/automate-testing-of-your-R-package/
 
-### README.md
+### Add to README.md
 
 - Cross-reference the package repository under your account to the one under the `dozmorovlab` account. Like: "The developmental version is available at `your GitHub repository`, the stable version is available at `dozmorovlab GitHub repository`"
-- Add BibTex citation and direct link to the paper/preprint. [Example](https://github.com/luoyunan/DTINet)
-- Add contact information considering security. [Example](https://github.com/luoyunan/DTINet)
+- Add BibTex citation and direct link to the paper/preprint, if relevant. [Example](https://github.com/luoyunan/DTINet)
+- Add contact information. Protect e-mails against scraping, like "zengjy321[at]tsinghua[dot]edu[dot]cn" [Example](https://github.com/luoyunan/DTINet)
 
 ### Visualization
 
