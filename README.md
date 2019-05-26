@@ -5,6 +5,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 # Table of content
 
 * [Cheatsheets](#Cheatsheets)
+* [Pipelines](#pipelines)
 * [R packages](#r-packages)
   * [Visualization](#visualization)
   * [Dimensionality reduction](#dimensionality-reduction)
@@ -23,6 +24,12 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - RStudio Cheat Sheets, https://www.rstudio.com/resources/cheatsheets/
 - A selection of printable, one-page cheatsheets, generated from Markdown using Pandoc & LaTeX, https://github.com/kickstartcoding/cheatsheets
 - A CheatSheet for Parallel Computation in R, https://github.com/ardeeshany/Parallel_Computing
+
+## Pipelines
+
+- `nf-core` - a framework for Nextflow (https://www.nextflow.io/) -based pipeline creation, community-driven. Integrated with Conda, Docker, Biocontainers. Scalable to a cloud level. Pipeline assemblers: Flowcraft (https://github.com/assemblerflow/flowcraft), Pipeliner (https://github.com/montilab/pipeliner).The nf-core hub with all pipelines:https://nf-co.re/. nf-core code:https://github.com/nf-core/. Alternatives: Snakemake
+    - Ewels, Philip, Alexander Peltzer, Sven Fillinger, Johannes Alneberg, Harshil Patel, Andreas Wilm, Maxime Garcia, Paolo Di Tommaso, and Sven Nahnsen. “Nf-Core: Community Curated Bioinformatics Pipelines.” Preprint. Bioinformatics, April 16, 2019. https://doi.org/10.1101/610741.
+
 
 ## R packages
 
