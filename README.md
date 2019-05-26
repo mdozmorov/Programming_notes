@@ -43,6 +43,14 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - Add BibTex citation and direct link to the paper/preprint, if relevant. [Example](https://github.com/luoyunan/DTINet)
 - Add contact information. Protect e-mails against scraping, like "zengjy321[at]tsinghua[dot]edu[dot]cn" [Example](https://github.com/luoyunan/DTINet)
 
+### Examples of well-structured software packages
+
+1. https://github.com/neurodata-papers/MGC
+2. https://github.com/neurodata-papers/LOL
+3. https://www.nature.com/nbt/journal/v34/n6/abs/nbt.3569.html#supplementary-information
+4. https://www.nature.com/nature/journal/v548/n7669/full/nature23463.html#extended-data, https://github.com/yasharhezaveh/Ensai
+5. https://www.nature.com/nbt/journal/v34/n11/full/nbt.3685.html#supplementary-information, https://github.com/IFIproteomics/LFQbench
+
 ### Visualization
 
 - `circlize` - Circular Visualization in R, https://cran.r-project.org/web/packages/circlize/index.html, documentation, http://zuguang.de/circlize_book/book/index.html\
