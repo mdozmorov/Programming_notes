@@ -13,6 +13,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
   * [HowTo](#howto)
     * [Convert continuous to categorical value](#convert-continuous-to-categorical-value)
     * [Barplot with StdErr using standard R graphics](#barplot-with-stderr-using-standard-r-graphics)
+    * [HDF5Array](#hdf5array)
   * [Misc](#misc)
     * [Imputation](#imputation)
     * [R questions](#r-questions)
@@ -98,6 +99,17 @@ BP = barplot(means.nf, ylim=c(0,max(means.nf)+10))
 segments(BP, means.nf - (2*StdErr.nf), BP, means.nf + (2*StdErr.nf), lwd = 1.5)  
 arrows(BP, means.nf - (2*StdErr.nf), BP,  means.nf + (2*StdErr.nf), lwd = 1.5, angle = 90,  code = 3, length = 0.05)  
 ````
+
+#### HDF5Array
+
+library(HDF5Array)
+a0 <- array(runif(15000000), dim=c(10000, 300, 5))
+A0 <- as(a0, "HDF5Array")  
+library(pryr) 
+object_size(A0)
+#> 1.94 kB
+object_size(a0)
+#> 120 MB #rstats
 
 ### Misc
 
