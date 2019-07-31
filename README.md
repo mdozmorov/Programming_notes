@@ -17,6 +17,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
   * [Misc](#misc)
     * [Imputation](#imputation)
     * [R questions](#r-questions)
+* [Python](#python)
 * [Cloud computing](#cloud-computing)
 
 ## Cheatsheets
@@ -135,6 +136,11 @@ object_size(a0)
 - How to create scatterplot matrices? Pair() or splom() function is used for create scatterplot matrices.
 - Define leaps(). It is used to perform the all-subsets regression and it is defined under the leaps package.
 - Define cluster.stats(). It is define in fpc package which provide a method for comparing the similarity of two clusters solution using different validation criteria.
+
+## Python
+
+- Rule, Adam, Amanda Birmingham, Cristal Zuniga, Ilkay Altintas, Shih-Cheng Huang, Rob Knight, Niema Moshiri, et al. “Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks.” PLoS Computational Biology 15, no. 7 (July 2019): e1007007. https://doi.org/10.1371/journal.pcbi.1007007. - Jupyter notebook practices. ipywidgets, watermark, papermill, nbviewer, binder. Notebook examples, https://github.com/jupyter-guide/ten-rules-jupyter, Guide for Reproducible Research and Data Science in Jupyter Notebooks, https://github.com/jupyter-guide/jupyter-guide
+
 
 ## Cloud computing
 
