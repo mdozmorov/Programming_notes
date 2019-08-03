@@ -42,6 +42,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - Advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc. https://github.com/MangoTheCat/goodpractice
 - `BiocPkgTools` - R package for queueing Bioconductor package statistics, downloads, dependencies, visualization as graphs.https://bioconductor.org/packages/release/bioc/html/BiocPkgTools.html
     - Su, Shian, Vincent J. Carey, Lori Shepherd, Matthew Ritchie, Martin T. Morgan, and Sean Davis. “BiocPkgTools: Toolkit for Mining the Bioconductor Package Ecosystem.” F1000Research 8 (May 29, 2019): 752. https://doi.org/10.12688/f1000research.19410.1.
+- `pkgdown` is designed to make it quick and easy to build a website for your package. https://pkgdown.r-lib.org/
 
 ### Add to README.md
 
