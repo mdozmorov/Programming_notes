@@ -17,6 +17,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
   * [Misc](#misc)
     * [Imputation](#imputation)
     * [R questions](#r-questions)
+* [Shell](#shell)
 * [Cloud computing](#cloud-computing)
 
 ## Cheatsheets
@@ -134,6 +135,11 @@ object_size(a0)
 - How to create scatterplot matrices? Pair() or splom() function is used for create scatterplot matrices.
 - Define leaps(). It is used to perform the all-subsets regression and it is defined under the leaps package.
 - Define cluster.stats(). It is define in fpc package which provide a method for comparing the similarity of two clusters solution using different validation criteria.
+
+## Shell
+
+- `nfiletypes` function to tell the number of files of each extension type in the current directory ([Source](https://twitter.com/strnr/status/1159503398716227584?s=03)): `nfiletypes () { find . -maxdepth 1 -type f | sed 's/.*\.//' | sort | uniq -c | sed 's/^ *//g' | sed 's/ /\t/g'; }`
+
 
 ## Cloud computing
 
