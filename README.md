@@ -35,6 +35,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 ## R packages
 
+- Develop Bioconductor packages with docker container, https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/
 - Steps to contribute packages to Bioconductor https://github.com/Bioconductor/Contributions
 - Docker Images which include a complete installation of all software needed to build all Bioconductor packages. https://github.com/Bioconductor/bioconductor_full
 - Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together. http://laderast.github.io/2019/02/12/package-building-description-namespace/
