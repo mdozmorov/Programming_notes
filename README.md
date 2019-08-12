@@ -17,6 +17,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
   * [Misc](#misc)
     * [Imputation](#imputation)
     * [R questions](#r-questions)
+* [Python](#python)
 * [Shell](#shell)
 * [Cloud computing](#cloud-computing)
 
@@ -136,6 +137,10 @@ object_size(a0)
 - How to create scatterplot matrices? Pair() or splom() function is used for create scatterplot matrices.
 - Define leaps(). It is used to perform the all-subsets regression and it is defined under the leaps package.
 - Define cluster.stats(). It is define in fpc package which provide a method for comparing the similarity of two clusters solution using different validation criteria.
+
+## Python
+
+- Matplotlib 3.1 cheat sheet, https://github.com/rougier/matplotlib-cheatsheet
 
 ## Shell
 
