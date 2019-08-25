@@ -90,6 +90,8 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 ### HowTo
 
+- How to Create a Bar Chart Race in R - Mapping United States City Population 1790-2010. https://michaeltoth.me/how-to-create-a-bar-chart-race-in-r-mapping-united-states-city-population-1790-2010.html
+
 - Convert continuous to categorical value
 
 ````
