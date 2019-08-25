@@ -6,10 +6,11 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 * [Cheatsheets](#Cheatsheets)
 * [Pipelines](#pipelines)
-* [R packages](#r-packages)
-  * [Visualization](#visualization)
-  * [Dimensionality reduction](#dimensionality-reduction)
-  * [Genomics](#genomics)
+* [R](#r)
+  * [R packages](#r-packages)
+    * [Visualization](#visualization)
+    * [Dimensionality reduction](#dimensionality-reduction)
+    * [Genomics](#genomics)
   * [HowTo](#howto)
     * [Convert continuous to categorical value](#convert-continuous-to-categorical-value)
     * [Barplot with StdErr using standard R graphics](#barplot-with-stderr-using-standard-r-graphics)
@@ -33,8 +34,9 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - `nf-core` - a framework for Nextflow (https://www.nextflow.io/) -based pipeline creation, community-driven. Integrated with Conda, Docker, Biocontainers. Scalable to a cloud level. Pipeline assemblers: Flowcraft (https://github.com/assemblerflow/flowcraft), Pipeliner (https://github.com/montilab/pipeliner).The nf-core hub with all pipelines:https://nf-co.re/. nf-core code:https://github.com/nf-core/. Alternatives: Snakemake
     - Ewels, Philip, Alexander Peltzer, Sven Fillinger, Johannes Alneberg, Harshil Patel, Andreas Wilm, Maxime Garcia, Paolo Di Tommaso, and Sven Nahnsen. “Nf-Core: Community Curated Bioinformatics Pipelines.” Preprint. Bioinformatics, April 16, 2019. https://doi.org/10.1101/610741.
 
+## R
 
-## R packages
+### R packages
 
 - Develop Bioconductor packages with docker container, https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/
 - Steps to contribute packages to Bioconductor https://github.com/Bioconductor/Contributions
@@ -46,13 +48,13 @@ Programming tips and tricks noted around Internet. These notes are not intended 
     - Su, Shian, Vincent J. Carey, Lori Shepherd, Matthew Ritchie, Martin T. Morgan, and Sean Davis. “BiocPkgTools: Toolkit for Mining the Bioconductor Package Ecosystem.” F1000Research 8 (May 29, 2019): 752. https://doi.org/10.12688/f1000research.19410.1.
 - `pkgdown` is designed to make it quick and easy to build a website for your package. https://pkgdown.r-lib.org/
 
-### Add to README.md
+#### Add to README.md
 
 - Cross-reference the package repository under your account to the one under the `dozmorovlab` account. Like: "The developmental version is available at `your GitHub repository`, the stable version is available at `dozmorovlab GitHub repository`"
 - Add BibTex citation and direct link to the paper/preprint, if relevant. [Example](https://github.com/luoyunan/DTINet)
 - Add contact information. Protect e-mails against scraping, like "zengjy321[at]tsinghua[dot]edu[dot]cn" [Example](https://github.com/luoyunan/DTINet)
 
-### Examples of well-structured software packages
+#### Examples of well-structured software packages
 
 1. https://github.com/neurodata-papers/MGC
 2. https://github.com/neurodata-papers/LOL
@@ -60,7 +62,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 4. https://www.nature.com/nature/journal/v548/n7669/full/nature23463.html#extended-data, https://github.com/yasharhezaveh/Ensai
 5. https://www.nature.com/nbt/journal/v34/n11/full/nbt.3685.html#supplementary-information, https://github.com/IFIproteomics/LFQbench
 
-### Visualization
+#### Visualization
 
 - `circlize` - Circular Visualization in R, https://cran.r-project.org/web/packages/circlize/index.html, documentation, http://zuguang.de/circlize_book/book/index.html\
 - `UpSetR` - stretched and aligned venn diagram. https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/InvitedSpeakers/relaxation-techniques-upset-data-scientist.pdf
@@ -69,7 +71,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - `autoplot` - PCA plotting. https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html
 - `ggord` - PCA and other dim reduction methods plotting with ellipses. https://github.com/fawda123/ggord
 
-### Dimensionality reduction
+#### Dimensionality reduction
 
 - PCA course using FactoMineR. https://francoishusson.wordpress.com/2017/07/13/course-on-pca-with-factominer/
 - Multiple Factor Analysis to analyse several data tables. https://francoishusson.wordpress.com/2017/07/18/multiple-factor-analysis-to-analyse-several-data-tables/
@@ -77,7 +79,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - Multiple Correspondence Analysis with FactoMineR. https://francoishusson.wordpress.com/2017/07/18/multiple-correspondence-analysis-with-factominer/
 - PCA, https://amunategui.github.io/high-demensions-pca/. caret::nearZeroVariance
 
-### Genomics
+#### Genomics
 
 - Lightweight Iterative Gene set Enrichment in R https://CRAN.R-project.org/package=liger, https://github.com/JEFworks/liger
 
