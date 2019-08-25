@@ -18,6 +18,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
     * [Imputation](#imputation)
     * [R questions](#r-questions)
 * [Python](#python)
+* [Shell](#shell)
 * [Cloud computing](#cloud-computing)
 
 ## Cheatsheets
@@ -35,6 +36,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 ## R packages
 
+- Develop Bioconductor packages with docker container, https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/
 - Steps to contribute packages to Bioconductor https://github.com/Bioconductor/Contributions
 - Docker Images which include a complete installation of all software needed to build all Bioconductor packages. https://github.com/Bioconductor/bioconductor_full
 - Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together. http://laderast.github.io/2019/02/12/package-building-description-namespace/
@@ -117,6 +119,7 @@ object_size(a0)
 
 ### Misc
 
+- How to make a minimal reproducible example, https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example/5963610#5963610
 - Multinomial logistic regression, https://amunategui.github.io/multinomial-neuralnetworks-walkthrough/
 - `pcor` - Partial and Semi-Partial (Part) Correlation, https://cran.r-project.org/web/packages/ppcor/index.html
 - `corpcor` - Efficient Estimation of Covariance and (Partial) Correlation, https://cran.r-project.org/web/packages/corpcor/index.html
@@ -143,6 +146,11 @@ object_size(a0)
 
 - Rule, Adam, Amanda Birmingham, Cristal Zuniga, Ilkay Altintas, Shih-Cheng Huang, Rob Knight, Niema Moshiri, et al. “Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks.” PLoS Computational Biology 15, no. 7 (July 2019): e1007007. https://doi.org/10.1371/journal.pcbi.1007007. - Jupyter notebook practices. ipywidgets, watermark, papermill, nbviewer, binder. Notebook examples, https://github.com/jupyter-guide/ten-rules-jupyter, Guide for Reproducible Research and Data Science in Jupyter Notebooks, https://github.com/jupyter-guide/jupyter-guide
 
+- Matplotlib 3.1 cheat sheet, https://github.com/rougier/matplotlib-cheatsheet
+
+## Shell
+
+- `nfiletypes` function to tell the number of files of each extension type in the current directory ([Source](https://twitter.com/strnr/status/1159503398716227584?s=03)): `nfiletypes () { find . -maxdepth 1 -type f | sed 's/.*\.//' | sort | uniq -c | sed 's/^ *//g' | sed 's/ /\t/g'; }`
 
 ## Cloud computing
 
