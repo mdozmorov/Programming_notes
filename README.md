@@ -120,6 +120,7 @@ object_size(a0)
 - Multinomial logistic regression, https://amunategui.github.io/multinomial-neuralnetworks-walkthrough/
 - `pcor` - Partial and Semi-Partial (Part) Correlation, https://cran.r-project.org/web/packages/ppcor/index.html
 - `corpcor` - Efficient Estimation of Covariance and (Partial) Correlation, https://cran.r-project.org/web/packages/corpcor/index.html
+- "The YAML Fieldguide", http://ymlthis.r-lib.org/articles/yaml-fieldguide.html
 
 #### Imputation
 
