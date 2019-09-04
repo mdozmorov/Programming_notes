@@ -150,6 +150,9 @@ object_size(a0)
 
 - Matplotlib 3.1 cheat sheet, https://github.com/rougier/matplotlib-cheatsheet
 
+- Cleaning & Modifying A Dataframe – Python, https://datascienceplus.com/cleaning-modifying-a-dataframe-python/
+
+
 ## Shell
 
 - `nfiletypes` function to tell the number of files of each extension type in the current directory ([Source](https://twitter.com/strnr/status/1159503398716227584?s=03)): `nfiletypes () { find . -maxdepth 1 -type f | sed 's/.*\.//' | sort | uniq -c | sed 's/^ *//g' | sed 's/ /\t/g'; }`
