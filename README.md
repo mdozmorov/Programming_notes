@@ -152,6 +152,8 @@ object_size(a0)
 
 - Cleaning & Modifying A Dataframe – Python, https://datascienceplus.com/cleaning-modifying-a-dataframe-python/
 
+- An Effective Python Environment: Making Yourself at Home. https://realpython.com/effective-python-environment/
+
 
 ## Shell
 
