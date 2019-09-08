@@ -154,6 +154,7 @@ object_size(a0)
 
 - An Effective Python Environment: Making Yourself at Home. https://realpython.com/effective-python-environment/
 
+- How to Think Like a Computer Scientist: Interactive Edition. Learning Python programming from ground up. https://runestone.academy/runestone/books/published/thinkcspy/index.html
 
 ## Shell
 
