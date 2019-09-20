@@ -18,6 +18,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 * [Python](#python)
 * [Shell](#shell)
 * [Cloud computing](#cloud-computing)
+* [Miscellaneous](#miscellaneous)
 
 ## Cheatsheets
 
@@ -163,3 +164,7 @@ object_size(a0)
 ## Cloud computing
 
 - cyverse tutorial links, https://github.com/crazyhottommy/cyverse_resource
+
+## Miscellaneous
+
+- C++ resources, https://brohrer.github.io/cpp_resources.html
