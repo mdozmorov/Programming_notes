@@ -127,6 +127,17 @@ object_size(a0)
 #> 120 MB #rstats
 ````
 
+- Convert a vector to normally distributed one
+````
+interactions <- log2(interactions) # If highly right-skewed, log2-transform beforehand
+# Inverse normal conversion
+interactions <- sapply(interactions, function(x) {
+  rank <- rank(x, na.last = "keep")
+  P <- (rank - 0.5) / length(x[ !is.na(x)] )
+  x <- qnorm(P)
+})
+````
+
 ### Misc
 
 - `disk.frame` - blog post about disk.frame usage, https://www.brodrigues.co/blog/2019-09-03-disk_frame/
