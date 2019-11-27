@@ -78,6 +78,9 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 ### Dimensionality reduction
 
+- `GLM-PCA` - multinomial distribution-based analysis methods for UMI counts in scRNA-seq data. Details of scRNA-seq data properties, analysis steps. https://github.com/willtownes/scrna2019,https://github.com/willtownes/glmpca,  https://cran.r-project.org/web/packages/glmpca/index.html
+    - Townes, F. William, Stephanie C. Hicks, Martin J. Aryee, and Rafael A. Irizarry. “Feature Selection and Dimension Reduction for Single Cell RNA-Seq Based on a Multinomial Model.” BioRxiv, March 11, 2019. https://doi.org/10.1101/574574.
+
 - PCA course using FactoMineR. https://francoishusson.wordpress.com/2017/07/13/course-on-pca-with-factominer/
 - Multiple Factor Analysis to analyse several data tables. https://francoishusson.wordpress.com/2017/07/18/multiple-factor-analysis-to-analyse-several-data-tables/
 - Correspondence Analysis with FactoMineR. https://francoishusson.wordpress.com/2017/07/13/correspondence-analysis-with-factominer/
