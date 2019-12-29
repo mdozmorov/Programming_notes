@@ -22,7 +22,6 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 ## Cheatsheets
 
-- List of Data Science Cheatsheets to rule the world, https://github.com/FavioVazquez/ds-cheatsheets
 - RStudio Cheat Sheets, https://www.rstudio.com/resources/cheatsheets/
 - A selection of printable, one-page cheatsheets, generated from Markdown using Pandoc & LaTeX, https://github.com/kickstartcoding/cheatsheets
 - A CheatSheet for Parallel Computation in R, https://github.com/ardeeshany/Parallel_Computing
