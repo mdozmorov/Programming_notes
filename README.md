@@ -74,6 +74,8 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 - `DiagrammeR` - Graph and network visualization using tabular data in R. https://github.com/rich-iannone/DiagrammeR
 - `autoplot` - PCA plotting. https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html
 - `ggord` - PCA and other dim reduction methods plotting with ellipses. https://github.com/fawda123/ggord
+- `PCAtools` - set of tools performing common PCA-related tasks, by Kevin Blighe and Aaron Lun. https://github.com/kevinblighe/PCAtools, https://bioconductor.org/packages/release/bioc/html/PCAtools.html
+
 
 ### Dimensionality reduction
 
