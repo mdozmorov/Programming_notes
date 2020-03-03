@@ -144,6 +144,7 @@ interactions <- sapply(interactions, function(x) {
 
 ### Misc
 
+- Rcpp for machine learning notes, https://github.com/bearloga/learning-rcpp
 - Simple Gantt charts in R with ggplot2 … and Microsoft Excel, https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/
 - `disk.frame` - blog post about disk.frame usage, https://www.brodrigues.co/blog/2019-09-03-disk_frame/
 - How to make a minimal reproducible example, https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example/5963610#5963610
