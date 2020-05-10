@@ -188,4 +188,6 @@ interactions <- sapply(interactions, function(x) {
 - `containerit` - an R package to create a Docker file from R session. Similar functionality provided by `dockerfiler`, `liftr`, `automagic`. https://github.com/o2r-project/containerit
     - Nüst, Daniel, and Matthias Hinz. “Containerit: Generating Dockerfiles for Reproducible Research with R.” Journal of Open Source Software 4, no. 40 (August 21, 2019): 1603. https://doi.org/10.21105/joss.01603.
 
-- C++ resources, https://brohrer.github.io/cpp_resources.html
+- [C++ resources, part of the End-to-End Machine Learning library](https://brohrer.github.io/cpp_resources.html)
+
+- [Intermediate C/C++ programming](http://www.langmead-lab.org/teaching-materials/#intermediate) - lecture slides by Ben Langmead
