@@ -35,6 +35,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 ### R packages
 
+- Template for building a bioconductor workshop package using github actions, https://github.com/seandavi/BuildABiocWorkshop2020
 - Common Bioconductor Methods and Classes, http://bioconductor.org/developers/how-to/commonMethodsAndClasses/
 - Develop Bioconductor packages with docker container, https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/
 - Steps to contribute packages to Bioconductor https://github.com/Bioconductor/Contributions
