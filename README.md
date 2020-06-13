@@ -35,6 +35,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
 
 ### R packages
 
+- Run a Bioconductor Workshop on a Google Cloud Instance, https://gist.github.com/seandavi/5da4a73d94bc24236cf204196feddc85
 - Template for building a bioconductor workshop package using github actions, https://github.com/seandavi/BuildABiocWorkshop2020
 - Common Bioconductor Methods and Classes, http://bioconductor.org/developers/how-to/commonMethodsAndClasses/
 - Develop Bioconductor packages with docker container, https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/
