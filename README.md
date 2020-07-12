@@ -180,6 +180,8 @@ interactions <- sapply(interactions, function(x) {
 
 ## Shell
 
+- [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner) - A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance. https://github.com/onceupon/Bash-Oneliner
+
 - `nfiletypes` function to tell the number of files of each extension type in the current directory ([Source](https://twitter.com/strnr/status/1159503398716227584?s=03)): `nfiletypes () { find . -maxdepth 1 -type f | sed 's/.*\.//' | sort | uniq -c | sed 's/^ *//g' | sed 's/ /\t/g'; }`
 
 ## Cloud computing
