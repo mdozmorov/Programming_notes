@@ -48,6 +48,7 @@ Programming tips and tricks noted around Internet. These notes are not intended 
     - Su, Shian, Vincent J. Carey, Lori Shepherd, Matthew Ritchie, Martin T. Morgan, and Sean Davis. “BiocPkgTools: Toolkit for Mining the Bioconductor Package Ecosystem.” F1000Research 8 (May 29, 2019): 752. https://doi.org/10.12688/f1000research.19410.1.
 - `pkgdown` is designed to make it quick and easy to build a website for your package. https://pkgdown.r-lib.org/
 - [Hexmake](https://connect.thinkr.fr/hexmake/) - This app allows the user to build its own hex stickers. [RStudio note](https://community.rstudio.com/t/hexmake-2020-shiny-contest-submission/59122)
+- [GuangchuangYu/hexSticker](https://github.com/GuangchuangYu/hexSticker) - Hexagon sticker in R, R package.
 
 **Add to README.md**
 
