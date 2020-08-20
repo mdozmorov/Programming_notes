@@ -1,202 +1,270 @@
 # Programming-related notes
 
-Programming tips and tricks noted around Internet. These notes are not intended to be comprehensive.
+Programming learning and data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
 
-* [Cheatsheets](#Cheatsheets)
-* [Pipelines](#pipelines)
-* [R](#r)
-  * [R packages](#r-packages)
-  * [Imputation](#imputation)
-  * [Visualization](#visualization)
-  * [Dimensionality reduction](#dimensionality-reduction)
-  * [Genomics](#genomics)
-  * [HowTo](#howto)
-  * [Misc](#misc)
-  * [R questions](#r-questions)
-* [Python](#python)
-* [Shell](#shell)
-* [Cloud computing](#cloud-computing)
-* [Miscellaneous](#miscellaneous)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [General](#general)
+- [Cheatsheets](#cheatsheets)
+- [Command line](#command-line)
+  - [Courses](#courses)
+- [Code best practices](#code-best-practices)
+- [Docker](#docker)
+- [Cloud](#cloud)
+- [Git](#git)
+- [Text](#text)
+  - [Text mining](#text-mining)
+- [Workflows](#workflows)
+  - [Makefiles](#makefiles)
+  - [Snakemake](#snakemake)
+- [Miscellaneous](#miscellaneous)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+## General
+
+- [every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know
+
+- [Learn any language X in Y minutes](https://github.com/adambard/learnxinyminutes-docs)
+
+- [List of Data Science Cheatsheets to rule the world](https://github.com/FavioVazquez/ds-cheatsheets), PDFs covering all programming languages, machine, deep learning
+
+- [Very large collection of free courses for all programming languages](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md), [interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md), [podcasts and screencasts](https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md), [books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md). And [more, translated in other languages](https://github.com/vhf/free-programming-books)
+
 
 ## Cheatsheets
 
-- RStudio Cheat Sheets, https://www.rstudio.com/resources/cheatsheets/
-- A selection of printable, one-page cheatsheets, generated from Markdown using Pandoc & LaTeX, https://github.com/kickstartcoding/cheatsheets
-- A CheatSheet for Parallel Computation in R, https://github.com/ardeeshany/Parallel_Computing
+- [awesome-reproducible-research](https://github.com/leipzig/awesome-reproducible-research) - A curated list of reproducible research case studies, projects, tutorials, and media
 
-## Pipelines
+- [awesome-programming-books](https://github.com/majikarp/awesome-programming-books) - Awesome Programming Books
 
-- `nf-core` - a framework for Nextflow (https://www.nextflow.io/) -based pipeline creation, community-driven. Integrated with Conda, Docker, Biocontainers. Scalable to a cloud level. Pipeline assemblers: Flowcraft (https://github.com/assemblerflow/flowcraft), Pipeliner (https://github.com/montilab/pipeliner).The nf-core hub with all pipelines:https://nf-co.re/. nf-core code:https://github.com/nf-core/. Alternatives: Snakemake
-    - Ewels, Philip, Alexander Peltzer, Sven Fillinger, Johannes Alneberg, Harshil Patel, Andreas Wilm, Maxime Garcia, Paolo Di Tommaso, and Sven Nahnsen. “Nf-Core: Community Curated Bioinformatics Pipelines.” Preprint. Bioinformatics, April 16, 2019. https://doi.org/10.1101/610741.
+- [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) - Some useful websites for programmers
 
-## R
+- [kickstartcoding/cheatsheets](https://github.com/kickstartcoding/cheatsheets) A selection of printable, one-page cheatsheets. HTML/CSS, Bash/Git, Python, JavaScript, Django, and more
 
-### R packages
+- [quick-SQL-cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet) - A quick reminder of all SQL queries and examples on how to use them
 
-- Run a Bioconductor Workshop on a Google Cloud Instance, https://gist.github.com/seandavi/5da4a73d94bc24236cf204196feddc85
-- Template for building a bioconductor workshop package using github actions, https://github.com/seandavi/BuildABiocWorkshop2020
-- Common Bioconductor Methods and Classes, http://bioconductor.org/developers/how-to/commonMethodsAndClasses/
-- Develop Bioconductor packages with docker container, https://divingintogeneticsandgenomics.rbind.io/post/develop-bioconductor-packages-with-docker-container/
-- Steps to contribute packages to Bioconductor https://github.com/Bioconductor/Contributions
-- Docker Images which include a complete installation of all software needed to build all Bioconductor packages. https://github.com/Bioconductor/bioconductor_full
-- Package Building: How `DESCRIPTION`, `NAMESPACE`, `roxygen`, and `devtools::document` work together. http://laderast.github.io/2019/02/12/package-building-description-namespace/
-- Automate testing of your R package using Travis CI, Codecov, and testthat. https://jef.works/blog/2019/02/17/automate-testing-of-your-R-package/
-- Advice about good practices when building R packages. Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc. https://github.com/MangoTheCat/goodpractice
-- `BiocPkgTools` - R package for queueing Bioconductor package statistics, downloads, dependencies, visualization as graphs.https://bioconductor.org/packages/release/bioc/html/BiocPkgTools.html
-    - Su, Shian, Vincent J. Carey, Lori Shepherd, Matthew Ritchie, Martin T. Morgan, and Sean Davis. “BiocPkgTools: Toolkit for Mining the Bioconductor Package Ecosystem.” F1000Research 8 (May 29, 2019): 752. https://doi.org/10.12688/f1000research.19410.1.
-- `pkgdown` is designed to make it quick and easy to build a website for your package. https://pkgdown.r-lib.org/
-- [Hexmake](https://connect.thinkr.fr/hexmake/) - This app allows the user to build its own hex stickers. [RStudio note](https://community.rstudio.com/t/hexmake-2020-shiny-contest-submission/59122)
-- [GuangchuangYu/hexSticker](https://github.com/GuangchuangYu/hexSticker) - Hexagon sticker in R, R package.
+- [Regular expression, Unix commands, Python quick reference, SQL reference card](http://practicalcomputing.org/files/PCfB_Appendices.pdf)
 
-**Add to README.md**
-
-- Cross-reference the package repository under your account to the one under the `dozmorovlab` account. Like: "The developmental version is available at `your GitHub repository`, the stable version is available at `dozmorovlab GitHub repository`"
-- Add BibTex citation and direct link to the paper/preprint, if relevant. [Example](https://github.com/luoyunan/DTINet)
-- Add contact information. Protect e-mails against scraping, like "zengjy321[at]tsinghua[dot]edu[dot]cn" [Example](https://github.com/luoyunan/DTINet)
-
-**Examples of well-structured software packages**
-
-1. https://github.com/neurodata-papers/MGC
-2. https://github.com/neurodata-papers/LOL
-3. https://www.nature.com/nbt/journal/v34/n6/abs/nbt.3569.html#supplementary-information
-4. https://www.nature.com/nature/journal/v548/n7669/full/nature23463.html#extended-data, https://github.com/yasharhezaveh/Ensai
-5. https://www.nature.com/nbt/journal/v34/n11/full/nbt.3685.html#supplementary-information, https://github.com/IFIproteomics/LFQbench
-
-### Imputation
-
-- Missing values imputation with missMDA. Missing values imputation with missMDA
-- `imputeTS` - Time Series Missing Value Imputation in R. https://journal.r-project.org/archive/2017/RJ-2017-009/index.html
-- `mice` - Multivariate Imputation by Chained Equations. https://cran.r-project.org/web/packages/mice/index.html
-- `missForest` - Nonparametric Missing Value Imputation using Random Forest. https://cran.r-project.org/web/packages/missForest/index.html
-
-### Visualization
-
-- `circlize` - Circular Visualization in R, https://cran.r-project.org/web/packages/circlize/index.html, documentation, http://zuguang.de/circlize_book/book/index.html\
-- `UpSetR` - stretched and aligned venn diagram. https://www.bioconductor.org/help/course-materials/2017/BioC2017/Day1/InvitedSpeakers/relaxation-techniques-upset-data-scientist.pdf
-- `visNetwork` - visNetwork is a R package for network visualization, using vis.js javascript library. https://cran.r-project.org/web/packages/visNetwork/vignettes/Introduction-to-visNetwork.html
-- `DiagrammeR` - Graph and network visualization using tabular data in R. https://github.com/rich-iannone/DiagrammeR
-- `autoplot` - PCA plotting. https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html
-- `ggord` - PCA and other dim reduction methods plotting with ellipses. https://github.com/fawda123/ggord
-- `PCAtools` - set of tools performing common PCA-related tasks, by Kevin Blighe and Aaron Lun. https://github.com/kevinblighe/PCAtools, https://bioconductor.org/packages/release/bioc/html/PCAtools.html
-
-
-### Dimensionality reduction
-
-- `GLM-PCA` - multinomial distribution-based analysis methods for UMI counts in scRNA-seq data. Details of scRNA-seq data properties, analysis steps. https://github.com/willtownes/scrna2019,https://github.com/willtownes/glmpca,  https://cran.r-project.org/web/packages/glmpca/index.html
-    - Townes, F. William, Stephanie C. Hicks, Martin J. Aryee, and Rafael A. Irizarry. “Feature Selection and Dimension Reduction for Single Cell RNA-Seq Based on a Multinomial Model.” BioRxiv, March 11, 2019. https://doi.org/10.1101/574574.
-
-- PCA course using FactoMineR. https://francoishusson.wordpress.com/2017/07/13/course-on-pca-with-factominer/
-- Multiple Factor Analysis to analyse several data tables. https://francoishusson.wordpress.com/2017/07/18/multiple-factor-analysis-to-analyse-several-data-tables/
-- Correspondence Analysis with FactoMineR. https://francoishusson.wordpress.com/2017/07/13/correspondence-analysis-with-factominer/
-- Multiple Correspondence Analysis with FactoMineR. https://francoishusson.wordpress.com/2017/07/18/multiple-correspondence-analysis-with-factominer/
-- PCA, https://amunategui.github.io/high-demensions-pca/. caret::nearZeroVariance
-
-### Genomics
-
-- Lightweight Iterative Gene set Enrichment in R https://CRAN.R-project.org/package=liger, https://github.com/JEFworks/liger
-
-
-### HowTo
-
-- How to Create a Bar Chart Race in R - Mapping United States City Population 1790-2010. https://michaeltoth.me/how-to-create-a-bar-chart-race-in-r-mapping-united-states-city-population-1790-2010.html
-
-- Convert continuous to categorical value
-
-````
-data(iris)
-vari <- iris$Sepal.Length
-nb.clusters <- 3
-breaks <- quantile(vari, seq(0,1,1/nb.clusters))
-Xqual <- cut(vari,breaks, include.lowest=TRUE)
-summary(Xqual)
-````
-
-- Barplot with StdErr using standard R graphics
-
-````
-dat = agridat::lasrosas.corn
-means.nf = tapply(dat$yield, INDEX=dat$nf, FUN=mean)  
-StdErr.nf = tapply(dat$yield, INDEX=dat$nf, FUN= std.error)  
-BP = barplot(means.nf, ylim=c(0,max(means.nf)+10))  
-segments(BP, means.nf - (2*StdErr.nf), BP, means.nf + (2*StdErr.nf), lwd = 1.5)  
-arrows(BP, means.nf - (2*StdErr.nf), BP,  means.nf + (2*StdErr.nf), lwd = 1.5, angle = 90,  code = 3, length = 0.05)  
-````
-
-- HDF5Array
-````
-library(HDF5Array)
-a0 <- array(runif(15000000), dim=c(10000, 300, 5))
-A0 <- as(a0, "HDF5Array")  
-library(pryr) 
-object_size(A0)
-#> 1.94 kB
-object_size(a0)
-#> 120 MB #rstats
-````
-
-- Convert a vector to normally distributed one
-````
-interactions <- log2(interactions) # If highly right-skewed, log2-transform beforehand
-# Inverse normal conversion
-interactions <- sapply(interactions, function(x) {
-  rank <- rank(x, na.last = "keep")
-  P <- (rank - 0.5) / length(x[ !is.na(x)] )
-  x <- qnorm(P)
-})
-````
-
-### Misc
-
-- Rcpp for machine learning notes, https://github.com/bearloga/learning-rcpp
-- Simple Gantt charts in R with ggplot2 … and Microsoft Excel, https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/
-- `disk.frame` - blog post about disk.frame usage, https://www.brodrigues.co/blog/2019-09-03-disk_frame/
-- How to make a minimal reproducible example, https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example/5963610#5963610
-- Multinomial logistic regression, https://amunategui.github.io/multinomial-neuralnetworks-walkthrough/
-- `pcor` - Partial and Semi-Partial (Part) Correlation, https://cran.r-project.org/web/packages/ppcor/index.html
-- `corpcor` - Efficient Estimation of Covariance and (Partial) Correlation, https://cran.r-project.org/web/packages/corpcor/index.html
-- "The YAML Fieldguide", http://ymlthis.r-lib.org/articles/yaml-fieldguide.html
-
-### R questions
-
-- Why vcd package is used? vcd package provides different methods for visualizing multivariate categorical data.
-- What is iPlots? It is a package which provide bar plots, mosaic plots, box plots, parallel plots, scatter plots and histograms.
-- What is fitdistr() function? It is used to provide the maximum likelihood fitting of univariate distributions. It is defined under the MASS package.
-- Define loglm() function. Loglm() function is used to create log-linear models.
-- How to create scatterplot matrices? Pair() or splom() function is used for create scatterplot matrices.
-- Define leaps(). It is used to perform the all-subsets regression and it is defined under the leaps package.
-- Define cluster.stats(). It is define in fpc package which provide a method for comparing the similarity of two clusters solution using different validation criteria.
-
-## Python
-
-- Rule, Adam, Amanda Birmingham, Cristal Zuniga, Ilkay Altintas, Shih-Cheng Huang, Rob Knight, Niema Moshiri, et al. “Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks.” PLoS Computational Biology 15, no. 7 (July 2019): e1007007. https://doi.org/10.1371/journal.pcbi.1007007. - Jupyter notebook practices. ipywidgets, watermark, papermill, nbviewer, binder. Notebook examples, https://github.com/jupyter-guide/ten-rules-jupyter, Guide for Reproducible Research and Data Science in Jupyter Notebooks, https://github.com/jupyter-guide/jupyter-guide
-
-- Matplotlib 3.1 cheat sheet, https://github.com/rougier/matplotlib-cheatsheet
-
-- Cleaning & Modifying A Dataframe – Python, https://datascienceplus.com/cleaning-modifying-a-dataframe-python/
-
-- An Effective Python Environment: Making Yourself at Home. https://realpython.com/effective-python-environment/
-
-- How to Think Like a Computer Scientist: Interactive Edition. Learning Python programming from ground up. https://runestone.academy/runestone/books/published/thinkcspy/index.html
-
-## Shell
+## Command line
 
 - [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner) - A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance. https://github.com/onceupon/Bash-Oneliner
 
-- `nfiletypes` function to tell the number of files of each extension type in the current directory ([Source](https://twitter.com/strnr/status/1159503398716227584?s=03)): `nfiletypes () { find . -maxdepth 1 -type f | sed 's/.*\.//' | sort | uniq -c | sed 's/^ *//g' | sed 's/ /\t/g'; }`
+- [Unix/Linux command reference sheet PDF](https://cheat-sheets.s3.amazonaws.com/linux-commands-cheat-sheet-new.pdf) and [another version](https://files.fosswire.com/2007/08/fwunixref.pdf) 
 
-## Cloud computing
+- [awesome-bash](https://github.com/awesome-lists/awesome-bash) - A curated list of delightful Bash scripts and resources 
 
-- cyverse tutorial links, https://github.com/crazyhottommy/cyverse_resource
+- [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page. Advanced. 
+
+- [An interactive explainer of any shell command](http://explainshell.com/) 
+
+- [commandlinefu.com](http://www.commandlinefu.com/commands/browse) - Master the power of command-line with a list of one-liner gems
+
+- [terminalsare.sexy](http://terminalsare.sexy) - A curated list of Terminal frameworks, plugins & resources for command-line interface (CLI) lovers. [GitHub](https://github.com/k4m4/terminals-are-sexy) 
+
+- [ShellCheck](https://www.shellcheck.net/) finds bugs in your shell scripts
+
+- [Awesome WSL - Windows Subsystem for Linux](https://github.com/sirredbeard/Awesome-WSL) - detailed guide for working on Linux in Windows
+
+### Courses
+
+- [Survival guide for Unix newbies](http://matt.might.net/articles/basic-unix/), [Settling into Unix](http://matt.might.net/articles/settling-into-unix/), and [Shell programming with bash tutorial](http://matt.might.net/articles/bash-by-example/), by Matt Might
+
+- [The Unix Workbench](https://seankross.com/the-unix-workbench/) by Sean Kross. From Bash basics to GitHub, cloud computing. [GitHub](https://github.com/seankross/the-unix-workbench)
+
+- [The Unix shell](https://swcarpentry.github.io/shell-novice/), Software Carpentry
+
+- [Data Coding 101](https://data36.com/data-coding-bash-best-practices/) – Intro To Bash. Four episodes, video
+
+- [CSE390A](https://github.com/ldfaiztt/CSE390A) - System and Software Tools (taught by Ruth E. Anderson). Well-polished lectures and homework on Unix /Git ecosystem
+
+- [data-science-at-the-command-line](https://www.datascienceatthecommandline.com/) - "Data Science at the Command Line" by Jeroen Janssens, [GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line)
+
+- [Command line for data science](https://blog.robertelder.org/data-science-linux-command-line/), with examples, videos
+
+
+## Code best practices
+
+- [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/), book by Roger Peng
+
+- [Tips for organizing projects](http://kbroman.org/steps2rr/pages/organize.html), [Organizing data in spreadsheets](http://kbroman.org/dataorg/) by Karl Broman
+
+- [Data Organization in Spreadsheets, common mistakes](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
+
+- [Software Carpentry reading material on software engineering and scientific computing](http://software-carpentry.org/reading/) 
+
+- [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) by Trey Causey
+
+- [ProjectTemplate](http://projecttemplate.net/) - an R package for advanced project management, [GitHub](https://github.com/johnmyleswhite/ProjectTemplate)
+
+- Seemann, Torsten. “[Ten Recommendations for Creating Usable Bioinformatics Command Line Software](https://doi.org/10.1186/2047-217X-2-15).” GigaScience 2, no. 1 (December 2013)
+
+- List, Markus, Peter Ebert, and Felipe Albrecht. “[Ten Simple Rules for Developing Usable Software in Computational Biology](https://doi.org/10.1371/journal.pcbi.1005265).” PLoS Computational Biology 13, no. 1 (January 2017)
+
+- Taschuk, Morgan, and Greg Wilson. “[Ten Simple Rules for Making Research Software More Robust](https://doi.org/10.1371/journal.pcbi.1005412).” PLOS Computational Biology 13, no. 4 (April 13, 2017). [GitHub](https://github.com/oicr-gsi/robust-paper) 
+
+- "Code and Data for the Social Sciences: A Practitioner’s Guide" book by Matthew Gentzkow and Jesse Shapiro, PDF. [https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) 
+
+- Wilson, Greg, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, et al. "[Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) ." PLoS Biology 2014
+
+- Noble, William Stafford. “[A Quick Guide to Organizing Computational Biology Projects](https://doi.org/10.1371/journal.pcbi.1000424).” PLoS Computational Biology 5, no. 7 (July 2009) - Computational projects organization, folder structure, command line scripts, version control
+
+
+## Docker
+
+- [Awesome-docker](https://awesome-docker.netlify.app/) - A curated list of Docker resources and projects. [GitHub](https://github.com/veggiemonk/awesome-docker)
+
+- [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
+
+- [Enough Docker to be Dangerous](http://seankross.com/2017/09/17/Enough-Docker-to-be-Dangerous.html) - A minimal Docker tutorial
+
+- [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/), by Andrew Odewahn
+
+- [An Introduction to Docker for R Users](https://colinfay.me/docker-r-reproducibility/)
+
+- [Docker tutorial by Dave Tang](https://davetang.github.io/reproducible_bioinformatics/docker.html)
+
+-  [A comprehensive tutorial on getting started with Docker!](https://docker-curriculum.com/), by Prakhar Srivastav. [GitHub](https://github.com/prakhar1989/docker-curriculum)
+
+- [A Docker tutorial for reproducible research](https://ropenscilabs.github.io/r-docker-tutorial/) by rOpenSci Labs
+
+- [Docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
+
+- [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) - a collection of Docker files encapsulating various software. [GitHub](https://github.com/jessfraz/dockerfiles)
+
+- [Bioinformatics containers](http://biocontainers.pro) - software tools wrapped as Conda recipes and Docker images. [GitHub](https://github.com/BioContainers/containers)
+
+- [Docker Containers for Bioconductor](https://github.com/bioconductor/bioconductor_docker)
+
+- [Introduction to Docker](https://www.youtube.com/watch?v=Q5POuMHxW-0) - video presentation, 47 min, by Solomon Hykes
+
+- [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo) - video course, 2 h 10 min, with interactive labs, by freeCodeCamp.org
+
+- Boettiger, Carl. “[An Introduction to Docker for Reproducible Research](https://doi.org/10.1145/2723872.2723882).” ACM SIGOPS Operating Systems Review 49, no. 1 (January 20, 2015) - High-level Docker overview. Technical challenges, ways to address them (virtual machines). Docker concept of one pipeline - one image, dockerfiles, image versioning, using with RStudio, reusable modules, example commands, best practices
+
+- Boettiger, Carl, and Dirk Eddelbuettel. “[An Introduction to Rocker: Docker Containers for R](https://journal.r-project.org/archive/2017/RJ-2017-065/index.html).” The R Journal 9, no. 2 (2017) - Rocker. Docker definitions. Command examples. Singularity. [rocker-project.org](https://www.rocker-project.org/)
+
+
+## Cloud
+
+- [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) - Amazon Web Services — a practical guide
+
+- [Amazon Web Services](https://2016-feb-aws.readthedocs.io/) - Illustrated guide to Amazon EC2, UC Davis, Titus Brown, [Video lecture, 2 h 42 min](https://www.youtube.com/watch?v=IFdBD3YdLJc&feature=youtu.be)
+
+- [Amazing Guide to using Amazon Web Services (AWS)](https://github.com/dwyl/learn-amazon-web-services), illustrated step-by-step tutorial
+
+- Video: Amazon AWS Tutorial [#1, 22 min](https://www.youtube.com/watch?v=Xs0g_ZEv2bw), [#2, 13 min](https://www.youtube.com/watch?v=tMC4h-arGPA), [#3, 16 min](https://www.youtube.com/watch?v=z59TDrLSFx4)
+
+- [SSH Tutorial for Linux](https://support.suso.com/supki/SSH_Tutorial_for_Linux)
+
+## Git
+
+- [New to Git and GitHub? This Essential Beginners Guide is for you](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
+
+- [One-pager simple Git guide](https://rogerdudler.github.io/git-guide/) 
+
+- [Resources to learn Git](https://try.github.io/) - Git handbook, cheatsheets, interactive tutorials
+
+- [Git and GitHub guide](http://kbroman.org/github_tutorial/), by Karl Broman
+
+- [Software Carpentry course on git](https://swcarpentry.github.io/git-novice/) 
+
+- [Happy Git and GitHub for the useR](http://happygitwithr.com/) by Jenny Bryan
+
+- [How to create pull requests on GitHub](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/) 
+
+- Blischak, John D., Emily R. Davenport, and Greg Wilson. “[A Quick Introduction to Version Control with Git and GitHub](https://doi.org/10.1371/journal.pcbi.1004668).” Edited by Francis Ouellette. PLOS Computational Biology 12, no. 1 (January 19, 2016) - An excellent explanation of Git and GitHub. Definitions (Box 1), tutorial
+
+- Bryan, Jennifer. “[Excuse Me, Do You Have a Moment to Talk about Version Control?](https://doi.org/10.7287/peerj.preprints.3159v2)”
+
+- [Git and GitHub videos for beginners](http://www.dataschool.io/git-and-github-videos-for-beginners/) 
+
+- [GitHub training videos](https://www.youtube.com/user/GitHubGuides/videos) 
+
+- [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk) - 1-hour video course by Gwen Faraday
+
+## Text
+
+- [Curated Regular Expression Resources](https://paulvanderlaken.com/2020/04/07/curated-regular-expression-resources/), with videos
+
+- [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
+
+- [Tutorial to sed](http://www.grymoire.com/Unix/Sed.html) by Bruce Barnett
+
+- [Interactive Vim tutorial](http://www.openvim.com/) 
+
+- [Vim reference card](http://web.mit.edu/merolish/Public/vi-ref.pdf) 
+
+### Text mining
+
+- [rentrez](https://github.com/ropensci/rentrez) - Access NCIB databases, including PubMed, from R
+
+- [PubScore](https://bioconductor.org/packages/PubScore/) - Automatic calculation of literature relevance of genes
+
+- [Adjutant](https://github.com/amcrisan/Adjutant) - Pubmed articles analysis, word cloud, topic clustering
+    - Crisan, Anamaria, Tamara Munzner, and Jennifer L Gardy. “[Adjutant: An R-Based Tool to Support Topic Discovery for Systematic and Literature Reviews](https://doi.org/10.1093/bioinformatics/bty722).” Bioinformatics, August 23, 2018. 
+
+- [Where to get Twitter data for academic research](https://gwu-libraries.github.io/sfm-ui/posts/2017-09-14-twitter-data), blog post by Justin Littman. [Collecting, Analysing and Sharing Twitter Data](http://okfnlabs.org/blog/2018/03/08/open-data-day-tweets.html), blog post by Serah Rono
+
+- [word2vec.r](https://word2vec.news-r.org/) - Julia's implementation of word2vec in R
+
+- [pdftools](https://github.com/ropensci/pdftools) - Text Extraction, Rendering and Converting of PDF Documents. [Documentation](https://docs.ropensci.org/pdftools)
+
+- [Tesseract](https://CRAN.R-project.org/package=tesseract) - Open Source OCR Engine R package
+
+
+## Workflows
+
+### Makefiles
+
+- [Why Use Make](https://bost.ocks.org/mike/make/) blog post by Mike Bostock
+
+- [A minimal tutorial on make](http://kbroman.org/minimal_make/) by Karl Broman
+
+- [Learning about Makefiles](http://davetang.org/muse/2015/05/31/learning-about-makefiles/) by Dave Tang
+
+- [Automation and Make](https://swcarpentry.github.io/make-novice/) by SoftwareCarpentry
+
+- [Makefiles in bioinformatics](https://github.com/vsbuffalo/makefiles-in-bioinfo), one PDF lecture and four exercises
+
+- [GNU Make - A Program for Directing Recompilation](https://www.gnu.org/software/make/manual/make.pdf) book by Stallman, Richard M., and Roland McGrath. 1991
+
+- [List of workflow tools for R projects](https://github.com/jdblischak/r-project-workflows)
+
+### Snakemake
+
+- [A Snakemake 'Hello world!' workflow](https://github.com/jperkel/Snakemake_example)
+
+- [Intro to workflows for efficient automated data analysis, using snakemake](https://github.com/ctb/2019-snakemake-ucdavis), by Titus Brown, with video
+
+- [Understanding Snakemake](https://vincebuffalo.com/blog/2020/03/04/understanding-snakemake.html)
+
+- [Streamlining Data-Intensive Biology With Workflow Systems](https://dib-lab.github.io/2020-workflows-paper/) - community-written review, [GitHub](https://github.com/dib-lab/2020-workflows-paper)
+
+
 
 ## Miscellaneous
 
-- [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more https://github.com/johnmyleswhite/julia_tutorials
-
-- `containerit` - an R package to create a Docker file from R session. Similar functionality provided by `dockerfiler`, `liftr`, `automagic`. https://github.com/o2r-project/containerit
-    - Nüst, Daniel, and Matthias Hinz. “Containerit: Generating Dockerfiles for Reproducible Research with R.” Journal of Open Source Software 4, no. 40 (August 21, 2019): 1603. https://doi.org/10.21105/joss.01603.
+- [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more
 
 - [C++ resources, part of the End-to-End Machine Learning library](https://brohrer.github.io/cpp_resources.html)
 
 - [Intermediate C/C++ programming](http://www.langmead-lab.org/teaching-materials/#intermediate) - lecture slides by Ben Langmead
+
+- [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) - Rcpp for everyone, by Masaki E. Tsuda. [GitHub](https://github.com/teuder/rcpp4everyone_en)
+
+- [Research computing teaching materials developed by School of Medicine Research Computing at the University of Virginia](https://github.com/uvarc/courses) - Cloud, Docker, command line, Git, Python, genomics
+
+- [d3graphTheory](https://mrpandey.github.io/d3graphTheory/) - Interactive webapp meant to be used as graph theory tutorials. Topics include: "Vertices and Edges", "Order and Size of a Graph", "Degree of a Vertex", "Degree Sequence of a Graph", "Graphic Sequence", "Havel-Hakimi Algorithm", "Pigeonhole Principle", "Regular Graph", "Complete Graph", "Bipartite Graph", "Complete Bipartite Graph", "Walk", "Open vs Closed Walks", "Connectivity", "Eulerian Circuit", "Eulerian Trail". [GitHub](https://github.com/mrpandey/d3graphTheory)
+
+- [D3 in Depth](http://d3indepth.com/)
+
+- [Datavis 2020](https://datavis.tech/datavis-2020/) - a free online course about how to conceptualize, design, and build interactive data visualizations with Web technologies. Videos, notes
+
+- The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “[Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences]((https://doi.org/10.1038/s41592-018-0046-7)).” Nature Methods 15, no. 7 (July 2018) - Conda, Bioconda overview
+
