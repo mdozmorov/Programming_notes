@@ -254,7 +254,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Miscellaneous
 
-- [Ubuntu on Windows for computational biology](https://www.protocols.io/view/ubuntu-on-windows-for-computational-biology-sfuebnw) - How to install Ubuntu on Windows 10
+- [Ubuntu on Windows for computational biology](https://www.protocols.io/view/ubuntu-on-windows-for-computational-biology-sfuebnw) - How to install Ubuntu on Windows , by James Lloyd. [Twitter](https://twitter.com/StevenXGe/status/1297149642686242816?s=20)
 
 - [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more
 
