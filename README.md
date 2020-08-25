@@ -119,6 +119,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Docker
 
+- [Docker for beginners](https://docker-curriculum.com) - Learn to build and deploy your distributed applications easily to the cloud with Docker, by Prakhar Srivastav. [Twitter](https://twitter.com/naga_rna/status/1297562599056388097?s=20)
+
 - [Awesome-docker](https://awesome-docker.netlify.app/) - A curated list of Docker resources and projects. [GitHub](https://github.com/veggiemonk/awesome-docker)
 
 - [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
