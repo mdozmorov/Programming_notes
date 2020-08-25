@@ -254,6 +254,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Miscellaneous
 
+- [Ubuntu on Windows for computational biology](https://www.protocols.io/view/ubuntu-on-windows-for-computational-biology-sfuebnw) - How to install Ubuntu on Windows 10
+
 - [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more
 
 - [C++ resources, part of the End-to-End Machine Learning library](https://brohrer.github.io/cpp_resources.html)
