@@ -38,6 +38,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Very large collection of free courses for all programming languages](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md), [interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md), [podcasts and screencasts](https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md), [books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md). And [more, translated in other languages](https://github.com/vhf/free-programming-books)
 
+- [awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software, https://awesome-go.com/
 
 ## Cheatsheets
 
