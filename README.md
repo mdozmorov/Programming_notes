@@ -24,6 +24,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
   - [Makefiles](#makefiles)
   - [Snakemake](#snakemake)
 - [Miscellaneous](#miscellaneous)
+- [Other programming languages](#other-programming-languages)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -259,6 +260,15 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Ubuntu on Windows for computational biology](https://www.protocols.io/view/ubuntu-on-windows-for-computational-biology-sfuebnw) - How to install Ubuntu on Windows , by James Lloyd. [Twitter](https://twitter.com/StevenXGe/status/1297149642686242816?s=20)
 
+- [Research computing teaching materials developed by School of Medicine Research Computing at the University of Virginia](https://github.com/uvarc/courses) - Cloud, Docker, command line, Git, Python, genomics
+
+- The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “[Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences]((https://doi.org/10.1038/s41592-018-0046-7)).” Nature Methods 15, no. 7 (July 2018) - Conda, Bioconda overview
+
+
+### Other programming languages
+
+See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://github.com/mdozmorov/Python_notes) repositories for those languages 
+
 - [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more
 
 - [C++ resources, part of the End-to-End Machine Learning library](https://brohrer.github.io/cpp_resources.html)
@@ -267,13 +277,9 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) - Rcpp for everyone, by Masaki E. Tsuda. [GitHub](https://github.com/teuder/rcpp4everyone_en)
 
-- [Research computing teaching materials developed by School of Medicine Research Computing at the University of Virginia](https://github.com/uvarc/courses) - Cloud, Docker, command line, Git, Python, genomics
-
 - [d3graphTheory](https://mrpandey.github.io/d3graphTheory/) - Interactive webapp meant to be used as graph theory tutorials. Topics include: "Vertices and Edges", "Order and Size of a Graph", "Degree of a Vertex", "Degree Sequence of a Graph", "Graphic Sequence", "Havel-Hakimi Algorithm", "Pigeonhole Principle", "Regular Graph", "Complete Graph", "Bipartite Graph", "Complete Bipartite Graph", "Walk", "Open vs Closed Walks", "Connectivity", "Eulerian Circuit", "Eulerian Trail". [GitHub](https://github.com/mrpandey/d3graphTheory)
 
 - [D3 in Depth](http://d3indepth.com/)
 
 - [Datavis 2020](https://datavis.tech/datavis-2020/) - a free online course about how to conceptualize, design, and build interactive data visualizations with Web technologies. Videos, notes
-
-- The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “[Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences]((https://doi.org/10.1038/s41592-018-0046-7)).” Nature Methods 15, no. 7 (July 2018) - Conda, Bioconda overview
 
