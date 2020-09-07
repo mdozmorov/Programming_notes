@@ -24,7 +24,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
   - [Makefiles](#makefiles)
   - [Snakemake](#snakemake)
 - [Miscellaneous](#miscellaneous)
-- [Other programming languages](#other-programming-languages)
+  - [Other programming languages](#other-programming-languages)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -268,6 +268,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 ### Other programming languages
 
 See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://github.com/mdozmorov/Python_notes) repositories for those languages 
+
+- [JavaScript for Data Science](https://js4ds.org) - detailed instructions by Maya Gans, Toby Hodges, and Greg Wilson
 
 - [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more
 
