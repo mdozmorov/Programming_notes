@@ -196,6 +196,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk) - 1-hour video course by Gwen Faraday
 
+- [GitHub Actions for R](https://www.jimhester.com/talk/2020-rsc-github-actions/) 20 min video lecture by Jim Hester, RStudio::conf 2020
+
 ## Text
 
 - [Curated Regular Expression Resources](https://paulvanderlaken.com/2020/04/07/curated-regular-expression-resources/), with videos
