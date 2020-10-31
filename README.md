@@ -121,6 +121,11 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Docker
 
+- [future-kubernetes](https://github.com/paciorek/future-kubernetes) - instructions for setting up and using a Kubernetes cluster for running R in parallel using the future package.
+
+- [Rockerverse](https://github.com/nuest/rockerverse-paper/) - Docker/containerization and R. Review of packages and applications for working with R in containers. Links to packages, examples of applications (Bioconductor, Data Science), deployment of R containers on the cloud.
+	- Nüst, Daniel, Dirk Eddelbuettel, Dom Bennett, Robrecht Cannoodt, Dav Clark, Gergely Daroczi, Mark Edmondson, et al. “[The Rockerverse: Packages and Applications for Containerization with R](http://arxiv.org/abs/2001.10641).” ArXiv:2001.10641 [Cs], January 28, 2020
+
 - [How Docker Can Help You Become A More Effective Data Scientist](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5), by Hamel Husain. [Tweet by Jeremy Howard](https://twitter.com/jeremyphoward/status/1298464399527514113?s=20)
 
 - [Docker for beginners](https://docker-curriculum.com) - Learn to build and deploy your distributed applications easily to the cloud with Docker, by Prakhar Srivastav. [Twitter](https://twitter.com/naga_rna/status/1297562599056388097?s=20)
