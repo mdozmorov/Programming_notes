@@ -265,6 +265,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Miscellaneous
 
+- [Build a website with blogdown in R](https://erum2020.netlify.app/) presentation by Tatjana Kecojevic, [GitHub](https://github.com/TanjaKec/eRum2020)
+
 - [Ubuntu on Windows for computational biology](https://www.protocols.io/view/ubuntu-on-windows-for-computational-biology-sfuebnw) - How to install Ubuntu on Windows , by James Lloyd. [Twitter](https://twitter.com/StevenXGe/status/1297149642686242816?s=20)
 
 - [Research computing teaching materials developed by School of Medicine Research Computing at the University of Virginia](https://github.com/uvarc/courses) - Cloud, Docker, command line, Git, Python, genomics
