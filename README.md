@@ -264,12 +264,18 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Web
 
+- [Build a website with blogdown in R](https://erum2020.netlify.app/) presentation by Tatjana Kecojevic, [GitHub](https://github.com/TanjaKec/eRum2020)
 
+- [JavaScript for Data Science](https://js4ds.org) - detailed instructions by Maya Gans, Toby Hodges, and Greg Wilson
+
+- [d3graphTheory](https://mrpandey.github.io/d3graphTheory/) - Interactive webapp meant to be used as graph theory tutorials. Topics include: "Vertices and Edges", "Order and Size of a Graph", "Degree of a Vertex", "Degree Sequence of a Graph", "Graphic Sequence", "Havel-Hakimi Algorithm", "Pigeonhole Principle", "Regular Graph", "Complete Graph", "Bipartite Graph", "Complete Bipartite Graph", "Walk", "Open vs Closed Walks", "Connectivity", "Eulerian Circuit", "Eulerian Trail". [GitHub](https://github.com/mrpandey/d3graphTheory)
+
+- [D3 in Depth](http://d3indepth.com/)
+
+- [Datavis 2020](https://datavis.tech/datavis-2020/) - a free online course about how to conceptualize, design, and build interactive data visualizations with Web technologies. Videos, notes
 
 
 ## Miscellaneous
-
-- [Build a website with blogdown in R](https://erum2020.netlify.app/) presentation by Tatjana Kecojevic, [GitHub](https://github.com/TanjaKec/eRum2020)
 
 - [Ubuntu on Windows for computational biology](https://www.protocols.io/view/ubuntu-on-windows-for-computational-biology-sfuebnw) - How to install Ubuntu on Windows , by James Lloyd. [Twitter](https://twitter.com/StevenXGe/status/1297149642686242816?s=20)
 
@@ -282,8 +288,6 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://github.com/mdozmorov/Python_notes) repositories for those languages 
 
-- [JavaScript for Data Science](https://js4ds.org) - detailed instructions by Maya Gans, Toby Hodges, and Greg Wilson
-
 - [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more
 
 - [C++ resources, part of the End-to-End Machine Learning library](https://brohrer.github.io/cpp_resources.html)
@@ -291,10 +295,4 @@ See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://g
 - [Intermediate C/C++ programming](http://www.langmead-lab.org/teaching-materials/#intermediate) - lecture slides by Ben Langmead
 
 - [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) - Rcpp for everyone, by Masaki E. Tsuda. [GitHub](https://github.com/teuder/rcpp4everyone_en)
-
-- [d3graphTheory](https://mrpandey.github.io/d3graphTheory/) - Interactive webapp meant to be used as graph theory tutorials. Topics include: "Vertices and Edges", "Order and Size of a Graph", "Degree of a Vertex", "Degree Sequence of a Graph", "Graphic Sequence", "Havel-Hakimi Algorithm", "Pigeonhole Principle", "Regular Graph", "Complete Graph", "Bipartite Graph", "Complete Bipartite Graph", "Walk", "Open vs Closed Walks", "Connectivity", "Eulerian Circuit", "Eulerian Trail". [GitHub](https://github.com/mrpandey/d3graphTheory)
-
-- [D3 in Depth](http://d3indepth.com/)
-
-- [Datavis 2020](https://datavis.tech/datavis-2020/) - a free online course about how to conceptualize, design, and build interactive data visualizations with Web technologies. Videos, notes
 
