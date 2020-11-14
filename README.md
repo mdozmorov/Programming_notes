@@ -23,6 +23,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Workflows](#workflows)
   - [Makefiles](#makefiles)
   - [Snakemake](#snakemake)
+- [Web](#web)
 - [Miscellaneous](#miscellaneous)
   - [Other programming languages](#other-programming-languages)
 
@@ -260,6 +261,9 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Understanding Snakemake](https://vincebuffalo.com/blog/2020/03/04/understanding-snakemake.html)
 
 - [Streamlining Data-Intensive Biology With Workflow Systems](https://dib-lab.github.io/2020-workflows-paper/) - community-written review, [GitHub](https://github.com/dib-lab/2020-workflows-paper)
+
+## Web
+
 
 
 
