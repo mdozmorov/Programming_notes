@@ -264,6 +264,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Web
 
+- [Bootstrap 4 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jE_cGvLLC60C_PeF_24pvv) - playlist with short videos introducing the functionality of Bootstrap. [Bootstrap Documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
 - [CSS Tutorial - Zero to Hero (Complete Course)](https://youtu.be/1Rs2ND1ryYc) - in depth video course by freeCodeCamp.org. [GitHub repository](https://github.com/Video-Lab/css-course-content) with the associated demo code
 
 - [Build a website with blogdown in R](https://erum2020.netlify.app/) presentation by Tatjana Kecojevic, [GitHub](https://github.com/TanjaKec/eRum2020)
