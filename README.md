@@ -218,6 +218,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Text mining
 
+- [ralger](https://github.com/feddelegrand7/ralger) - an R package for web scraping, by M. El F. Ihaddaden. [Video](https://youtu.be/OHi6E8jegQg), 5min
+
 - [rentrez](https://github.com/ropensci/rentrez) - Access NCIB databases, including PubMed, from R
 
 - [PubScore](https://bioconductor.org/packages/PubScore/) - Automatic calculation of literature relevance of genes
