@@ -256,6 +256,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Snakemake
 
+- [Snakemake workflow catalog](https://snakemake.github.io/snakemake-workflow-catalog/) - a ranked list of Snakemake workflows, GitHub repositories. [Tweet](https://twitter.com/johanneskoester/status/1349806955657900034?s=20)
+
 - [A Snakemake 'Hello world!' workflow](https://github.com/jperkel/Snakemake_example)
 
 - [Intro to workflows for efficient automated data analysis, using snakemake](https://github.com/ctb/2019-snakemake-ucdavis), by Titus Brown, with video
