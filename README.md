@@ -122,6 +122,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Docker
 
+- [The Docker Handbook – 2021 Edition](https://www.freecodecamp.org/news/the-docker-handbook/)
+
 - [future-kubernetes](https://github.com/paciorek/future-kubernetes) - instructions for setting up and using a Kubernetes cluster for running R in parallel using the future package.
 
 - [Rockerverse](https://github.com/nuest/rockerverse-paper/) - Docker/containerization and R. Review of packages and applications for working with R in containers. Links to packages, examples of applications (Bioconductor, Data Science), deployment of R containers on the cloud.
