@@ -266,7 +266,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Intro to workflows for efficient automated data analysis, using snakemake](https://github.com/ctb/2019-snakemake-ucdavis), by Titus Brown, with video
 
-- [Understanding Snakemake](https://vincebuffalo.com/blog/2020/03/04/understanding-snakemake.html)
+- [Understanding Snakemake](https://vincebuffalo.com/blog/2020/03/04/understanding-snakemake.html) blog post by Vince Buffalo. [GitHub repo](https://github.com/vsbuffalo/snakemake-tutorial) with examples.
 
 - [Streamlining Data-Intensive Biology With Workflow Systems](https://dib-lab.github.io/2020-workflows-paper/) - community-written review, [GitHub](https://github.com/dib-lab/2020-workflows-paper)
 
