@@ -16,6 +16,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
   - [Courses](#courses)
 - [Code best practices](#code-best-practices)
 - [Docker](#docker)
+  - [Kubernetes](#kubernetes)
 - [Cloud](#cloud)
 - [Git](#git)
 - [Text](#text)
@@ -124,8 +125,6 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [The Docker Handbook – 2021 Edition](https://www.freecodecamp.org/news/the-docker-handbook/)
 
-- [future-kubernetes](https://github.com/paciorek/future-kubernetes) - instructions for setting up and using a Kubernetes cluster for running R in parallel using the future package.
-
 - [Rockerverse](https://github.com/nuest/rockerverse-paper/) - Docker/containerization and R. Review of packages and applications for working with R in containers. Links to packages, examples of applications (Bioconductor, Data Science), deployment of R containers on the cloud.
 	- Nüst, Daniel, Dirk Eddelbuettel, Dom Bennett, Robrecht Cannoodt, Dav Clark, Gergely Daroczi, Mark Edmondson, et al. “[The Rockerverse: Packages and Applications for Containerization with R](http://arxiv.org/abs/2001.10641).” ArXiv:2001.10641 [Cs], January 28, 2020
 
@@ -134,8 +133,6 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Docker for beginners](https://docker-curriculum.com) - Learn to build and deploy your distributed applications easily to the cloud with Docker, by Prakhar Srivastav. [Twitter](https://twitter.com/naga_rna/status/1297562599056388097?s=20)
 
 - [Awesome-docker](https://awesome-docker.netlify.app/) - A curated list of Docker resources and projects. [GitHub](https://github.com/veggiemonk/awesome-docker)
-
-- [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
 
 - [Enough Docker to be Dangerous](http://seankross.com/2017/09/17/Enough-Docker-to-be-Dangerous.html) - A minimal Docker tutorial
 
@@ -164,6 +161,13 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - Boettiger, Carl. “[An Introduction to Docker for Reproducible Research](https://doi.org/10.1145/2723872.2723882).” ACM SIGOPS Operating Systems Review 49, no. 1 (January 20, 2015) - High-level Docker overview. Technical challenges, ways to address them (virtual machines). Docker concept of one pipeline - one image, dockerfiles, image versioning, using with RStudio, reusable modules, example commands, best practices
 
 - Boettiger, Carl, and Dirk Eddelbuettel. “[An Introduction to Rocker: Docker Containers for R](https://journal.r-project.org/archive/2017/RJ-2017-065/index.html).” The R Journal 9, no. 2 (2017) - Rocker. Docker definitions. Command examples. Singularity. [rocker-project.org](https://www.rocker-project.org/)
+
+### Kubernetes
+
+- [future-kubernetes](https://github.com/paciorek/future-kubernetes) - instructions for setting up and using a Kubernetes cluster for running R in parallel using the future package.
+
+- [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
+
 
 
 ## Cloud
