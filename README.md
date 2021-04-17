@@ -168,7 +168,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
 
-
+- [Using Kubernetes and the Future Package to Easily Parallelize R in the Cloud](https://www.r-bloggers.com/2021/04/using-kubernetes-and-the-future-package-to-easily-parallelize-r-in-the-cloud/) - how to use R on the Kubernetes cluster on Google Cloud. [Tweet](https://twitter.com/seandavis12/status/1380734816568504325?s=20)
 
 ## Cloud
 
