@@ -174,6 +174,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
 
+- [CloudBank](https://www.cloudbank.org/) - NSF-funded cloud computing for education, training, and allocation for cloud computing resources.
+
 - [AWS Basics for Beginners - Full Course](https://youtu.be/ulprqHHWlng) - Video course (5h 27m) introducing topics from AWS basics to advanced cloud computing concepts. [Course code and files](https://digitalcloud.training/aws-basics-for-beginners-course-downloads/), 
 
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) - Amazon Web Services — a practical guide
