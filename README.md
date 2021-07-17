@@ -166,6 +166,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Kubernetes
 
+- [Kubernetes for Dummies](https://dev.to/stevenmcgown/kubernetes-for-dummies-5hmh) - introductory examples, by Steven McGown
+
 - [future-kubernetes](https://github.com/paciorek/future-kubernetes) - instructions for setting up and using a Kubernetes cluster for running R in parallel using the future package.
 
 - [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
