@@ -196,6 +196,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Git
 
+- [Metrics](https://github.com/lowlighter/metrics) - An infographics generator with 30+ plugins and 200+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!
+
 - [New to Git and GitHub? This Essential Beginners Guide is for you](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
 
 - [One-pager simple Git guide](https://rogerdudler.github.io/git-guide/) 
