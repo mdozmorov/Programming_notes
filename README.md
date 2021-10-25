@@ -24,6 +24,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Workflows](#workflows)
   - [Makefiles](#makefiles)
   - [Snakemake](#snakemake)
+  - [WDL](#wdl)
 - [Web](#web)
 - [Miscellaneous](#miscellaneous)
   - [Other programming languages](#other-programming-languages)
@@ -285,6 +286,11 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Understanding Snakemake](https://vincebuffalo.com/blog/2020/03/04/understanding-snakemake.html) blog post by Vince Buffalo. [GitHub repo](https://github.com/vsbuffalo/snakemake-tutorial) with examples.
 
 - [Streamlining Data-Intensive Biology With Workflow Systems](https://dib-lab.github.io/2020-workflows-paper/) - community-written review, [GitHub](https://github.com/dib-lab/2020-workflows-paper)
+
+### WDL
+
+- [dg-wdl-tutorial](https://github.com/gvwilson/dg-wdl-tutorial) - Deep Genomics WDL tutorial, by Greg Wilson
+
 
 ## Web
 
