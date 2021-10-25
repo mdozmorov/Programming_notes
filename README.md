@@ -289,6 +289,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### WDL
 
+- [learn-wdl](https://github.com/openwdl/learn-wdl) - Educational materials for learning WDL, by Lynn Langit
+
 - [dg-wdl-tutorial](https://github.com/gvwilson/dg-wdl-tutorial) - Deep Genomics WDL tutorial, by Greg Wilson
 
 
