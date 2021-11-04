@@ -60,6 +60,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Command line
 
+- [The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners](https://youtu.be/ZtqBQ68cfJc) - a 5 hour video course
+
 - [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner) - A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance. https://github.com/onceupon/Bash-Oneliner
 
 - [Unix/Linux command reference sheet PDF](https://cheat-sheets.s3.amazonaws.com/linux-commands-cheat-sheet-new.pdf) and [another version](https://files.fosswire.com/2007/08/fwunixref.pdf) 
