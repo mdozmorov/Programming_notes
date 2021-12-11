@@ -304,6 +304,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [magic-of-css](https://github.com/adamschwartz/magic-of-css) - A CSS course to turn you into a magician.
 
+- [Bootstrap CSS Framework - Full Course for Beginners](https://youtu.be/-qfEOE4vtxE) - Learn Bootstrap 5 in this full course for beginners. Bootstrap is the most popular CSS framework. It allows web developers to quickly design and customize responsive mobile-first sites. 2h46m video 
+
 - [Bootstrap 4 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jE_cGvLLC60C_PeF_24pvv) - playlist with short videos introducing the functionality of Bootstrap. [Bootstrap Documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
 - [CSS Tutorial - Zero to Hero (Complete Course)](https://youtu.be/1Rs2ND1ryYc) - in depth video course by freeCodeCamp.org. [GitHub repository](https://github.com/Video-Lab/css-course-content) with the associated demo code
