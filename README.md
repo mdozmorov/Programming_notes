@@ -334,6 +334,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://github.com/mdozmorov/Python_notes) repositories for those languages 
 
+- [CMake Cookbook](https://github.com/dev-cafe/cmake-cookbook) - This repository collects sources for the recipes contained in the CMake Cookbook published by Packt and authored by Radovan Bast and Roberto Di Remigio
+
 - [learngo](https://github.com/inancgumus/learngo) - 1000+ Hand-Crafted Go Examples, Exercises, and Quizzes
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book/) book, [Cookin' with Rust](https://rust-lang-nursery.github.io/rust-cookbook/intro.html) cookbook, [Why scientists are turning to Rust](https://www.nature.com/articles/d41586-020-03382-2) Nature technology feature
