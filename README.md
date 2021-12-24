@@ -177,6 +177,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Kubernetes
 
+- [Kubernetes The Hard Way On VirtualBox](https://github.com/mmumshad/kubernetes-the-hard-way) - Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.
+
 - [Kubernetes for Dummies](https://dev.to/stevenmcgown/kubernetes-for-dummies-5hmh) - introductory examples, by Steven McGown
 
 - [future-kubernetes](https://github.com/paciorek/future-kubernetes) - instructions for setting up and using a Kubernetes cluster for running R in parallel using the future package.
