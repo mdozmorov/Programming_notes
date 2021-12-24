@@ -44,6 +44,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning) - A (not so) tiny list limited to the best JavaScript Learning Resources
 
+- [awesome-cpp](https://github.com/fffaraz/awesome-cpp) - A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things.
+
 - [awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software, https://awesome-go.com/
 
 - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) - A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
