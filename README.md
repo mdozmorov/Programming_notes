@@ -50,6 +50,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) - A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
 
+- [awesome-readme](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs. Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
+
 ## Cheatsheets
 
 - [awesome-reproducible-research](https://github.com/leipzig/awesome-reproducible-research) - A curated list of reproducible research case studies, projects, tutorials, and media
