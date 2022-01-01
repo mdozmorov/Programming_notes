@@ -335,6 +335,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “[Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences]((https://doi.org/10.1038/s41592-018-0046-7)).” Nature Methods 15, no. 7 (July 2018) - Conda, Bioconda overview
 
+- [condacolab](https://github.com/conda-incubator/condacolab) - Install Conda and friends on Google Colab
 
 ### Other programming languages
 
