@@ -25,6 +25,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
   - [Makefiles](#makefiles)
   - [Snakemake](#snakemake)
   - [WDL](#wdl)
+  - [Nextflow](#nextflow)
 - [Web](#web)
 - [Miscellaneous](#miscellaneous)
   - [Other programming languages](#other-programming-languages)
@@ -307,6 +308,9 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [dg-wdl-tutorial](https://github.com/gvwilson/dg-wdl-tutorial) - Deep Genomics WDL tutorial, by Greg Wilson
 
+### Nextflow
+
+- [Introduction to Bioinformatics workflows with Nextflow and nf-core](https://carpentries-incubator.github.io/workflows-nextflow/aio/index.html) - The Carmentries workshop
 
 ## Web
 
