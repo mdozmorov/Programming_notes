@@ -21,6 +21,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Git](#git)
 - [Text](#text)
   - [Text mining](#text-mining)
+- [SQL](#sql)
 - [Workflows](#workflows)
   - [Makefiles](#makefiles)
   - [Snakemake](#snakemake)
@@ -192,7 +193,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Cloud
 
-- [gcp-for-bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics) - Google Cloud Platform (GCP) for Bioinformatics, tutorials by Lynn Langit. [Youtube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z)
+- [gcp-for-bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics) - Google Cloud Platform (GCP) for Bioinformatics, tutorials by [Lynn Langit](https://github.com/lynnlangit). [Youtube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z), more cloud courses at [Lynn's profile](https://github.com/lynnlangit).
 
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
 
@@ -270,6 +271,10 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [pdftools](https://github.com/ropensci/pdftools) - Text Extraction, Rendering and Converting of PDF Documents. [Documentation](https://docs.ropensci.org/pdftools)
 
 - [Tesseract](https://CRAN.R-project.org/package=tesseract) - Open Source OCR Engine R package
+
+## SQL
+
+- [sqlime](https://github.com/nalgeon/sqlime) - Online SQLite playground, for debugging and sharing SQL snippets. [Web](http://sqlime.org/)
 
 
 ## Workflows
