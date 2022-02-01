@@ -315,6 +315,11 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Nextflow
 
+- [nf-core](https://github.com/nf-core/) - community-curated guidelines for pipeline building using the Nextflow framework. Software bundled with pipelines using Conda, Docker/Singularity, [Bioconda](https://bioconda.github.io/), [Conda-forge](https://conda-forge.org/), [BioContainers](https://biocontainers.pro/) repositories. Software bundles (yaml environment built into Docker container), continuous integration, common structure, documentation, simplicity requirements for pipelines. Extension tools: [Flowcraft](https://github.com/assemblerflow/flowcraft) - A Nextflow pipeline assembler for genomics. [Pipeliner](https://github.com/montilab/pipeliner) - A flexible Nextflow-based framework for the definition of sequencing data processing pipelines. Similar concept - [Snakemake-workflows](https://github.com/snakemake-workflows). nf-core tools on [Bioconda](https://bioconda.github.io/recipes/nf-core/README.html) and [PyPi](https://pypi.org/project/nf-core/). [Available pipelines](https://nf-co.re/pipelines). <details>
+    <summary>Paper</summary>
+    Ewels, Philip A., Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso, and Sven Nahnsen. “The Nf-Core Framework for Community-Curated Bioinformatics Pipelines.” Nature Biotechnology, February 13, 2020. https://doi.org/10.1038/s41587-020-0439-x.
+</details>
+
 - [Introduction to Bioinformatics workflows with Nextflow and nf-core](https://carpentries-incubator.github.io/workflows-nextflow/aio/index.html) - The Carmentries workshop
 
 ## Web
