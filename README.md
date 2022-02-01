@@ -344,9 +344,11 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Research computing teaching materials developed by School of Medicine Research Computing at the University of Virginia](https://github.com/uvarc/courses) - Cloud, Docker, command line, Git, Python, genomics
 
-- The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “[Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences]((https://doi.org/10.1038/s41592-018-0046-7)).” Nature Methods 15, no. 7 (July 2018) - Conda, Bioconda overview
+- The Bioconda Team, Björn Grüning, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, and Johannes Köster. “[Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences](https://doi.org/10.1038/s41592-018-0046-7).” Nature Methods 15, no. 7 (July 2018) - Conda, Bioconda overview
 
 - [condacolab](https://github.com/conda-incubator/condacolab) - Install Conda and friends on Google Colab
+
+- [netdata.cloud](https://www.netdata.cloud) - Real-time performance monitoring, done right! Over 200 zero-configuration-supported systems, hardware, containers, and applications, from Docker/Kubernetes to databases/web servers, and more.
 
 ### Other programming languages
 
