@@ -169,7 +169,10 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) - a collection of Docker files encapsulating various software. [GitHub](https://github.com/jessfraz/dockerfiles)
 
-- [Bioinformatics containers](http://biocontainers.pro) - software tools wrapped as Conda recipes and Docker images. [GitHub](https://github.com/BioContainers/containers)
+- [BioContainers](https://github.com/BioContainers/) - A community-driven project to create and manage bioinformatics software containers. [Conda, Docker/Singularity recipes](https://github.com/BioContainers/containers) to build bioinformatics software-centered containers, [specifications](https://github.com/BioContainers/specs/blob/master/container-specs.md). [mulled](https://github.com/BioContainers/mulled) and [involucro](https://github.com/involucro/involucro) helper tools. Integration with [BioConda](https://bioconda.github.io/), [Galaxy](https://galaxyproject.org/), [PhenoMeNal H2020](http://phenomenal-h2020.eu/home/). <details>
+    <summary>Paper</summary>
+    Veiga Leprevost, Felipe da, Björn A Grüning, Saulo Alves Aflitos, Hannes L Röst, Julian Uszkoreit, Harald Barsnes, Marc Vaudel, et al. “BioContainers: An Open-Source and Community-Driven Framework for Software Standardization.” Edited by Alfonso Valencia. Bioinformatics 33, no. 16 (August 15, 2017): 2580–82. https://doi.org/10.1093/bioinformatics/btx192.
+</details>
 
 - [Docker Containers for Bioconductor](https://github.com/bioconductor/bioconductor_docker)
 
