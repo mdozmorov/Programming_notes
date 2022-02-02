@@ -142,43 +142,45 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Docker
 
-- [The Docker Handbook – 2021 Edition](https://www.freecodecamp.org/news/the-docker-handbook/)
-
-- [Rockerverse](https://github.com/nuest/rockerverse-paper/) - Docker/containerization and R. Review of packages and applications for working with R in containers. Links to packages, examples of applications (Bioconductor, Data Science), deployment of R containers on the cloud.
-	- Nüst, Daniel, Dirk Eddelbuettel, Dom Bennett, Robrecht Cannoodt, Dav Clark, Gergely Daroczi, Mark Edmondson, et al. “[The Rockerverse: Packages and Applications for Containerization with R](http://arxiv.org/abs/2001.10641).” ArXiv:2001.10641 [Cs], January 28, 2020
-
-- [How Docker Can Help You Become A More Effective Data Scientist](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5), by Hamel Husain. [Tweet by Jeremy Howard](https://twitter.com/jeremyphoward/status/1298464399527514113?s=20)
-
-- [Docker for beginners](https://docker-curriculum.com) - Learn to build and deploy your distributed applications easily to the cloud with Docker, by Prakhar Srivastav. [Twitter](https://twitter.com/naga_rna/status/1297562599056388097?s=20)
-
 - [Awesome-docker](https://awesome-docker.netlify.app/) - A curated list of Docker resources and projects. [GitHub](https://github.com/veggiemonk/awesome-docker)
 
-- [Enough Docker to be Dangerous](http://seankross.com/2017/09/17/Enough-Docker-to-be-Dangerous.html) - A minimal Docker tutorial
-
-- [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/), by Andrew Odewahn
-
 - [An Introduction to Docker for R Users](https://colinfay.me/docker-r-reproducibility/)
-
-- [Docker tutorial by Dave Tang](https://davetang.github.io/reproducible_bioinformatics/docker.html)
 
 -  [A comprehensive tutorial on getting started with Docker!](https://docker-curriculum.com/), by Prakhar Srivastav. [GitHub](https://github.com/prakhar1989/docker-curriculum)
 
 - [A Docker tutorial for reproducible research](https://ropenscilabs.github.io/r-docker-tutorial/) by rOpenSci Labs
 
+- [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) - a collection of Docker files encapsulating various software. [GitHub](https://github.com/jessfraz/dockerfiles)
+
 - [Docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
 
-- [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/) - a collection of Docker files encapsulating various software. [GitHub](https://github.com/jessfraz/dockerfiles)
+- [The Docker Handbook – 2021 Edition](https://www.freecodecamp.org/news/the-docker-handbook/)
+
+- [How Docker Can Help You Become A More Effective Data Scientist](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5), by Hamel Husain. [Tweet by Jeremy Howard](https://twitter.com/jeremyphoward/status/1298464399527514113?s=20)
+
+- [Docker for beginners](https://docker-curriculum.com) - Learn to build and deploy your distributed applications easily to the cloud with Docker, by Prakhar Srivastav. [Twitter](https://twitter.com/naga_rna/status/1297562599056388097?s=20)
+
+- [Docker Jumpstart](https://github.com/odewahn/docker-jumpstart/), by Andrew Odewahn
+
+- [Docker tutorial by Dave Tang](https://davetang.github.io/reproducible_bioinformatics/docker.html)
+
+- [Docker Containers for Bioconductor](https://github.com/bioconductor/bioconductor_docker)
+
+- [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo) - video course, 2 h 10 min, with interactive labs, by freeCodeCamp.org
+
+- [Enough Docker to be Dangerous](http://seankross.com/2017/09/17/Enough-Docker-to-be-Dangerous.html) - A minimal Docker tutorial
+
+- [Introduction to Docker](https://www.youtube.com/watch?v=Q5POuMHxW-0) - video presentation, 47 min, by Solomon Hykes
 
 - [BioContainers](https://github.com/BioContainers/) - A community-driven project to create and manage bioinformatics software containers. [Conda, Docker/Singularity recipes](https://github.com/BioContainers/containers) to build bioinformatics software-centered containers, [specifications](https://github.com/BioContainers/specs/blob/master/container-specs.md). [mulled](https://github.com/BioContainers/mulled) and [involucro](https://github.com/involucro/involucro) helper tools. Integration with [BioConda](https://bioconda.github.io/), [Galaxy](https://galaxyproject.org/), [PhenoMeNal H2020](http://phenomenal-h2020.eu/home/). <details>
     <summary>Paper</summary>
     Veiga Leprevost, Felipe da, Björn A Grüning, Saulo Alves Aflitos, Hannes L Röst, Julian Uszkoreit, Harald Barsnes, Marc Vaudel, et al. “BioContainers: An Open-Source and Community-Driven Framework for Software Standardization.” Edited by Alfonso Valencia. Bioinformatics 33, no. 16 (August 15, 2017): 2580–82. https://doi.org/10.1093/bioinformatics/btx192.
 </details>
 
-- [Docker Containers for Bioconductor](https://github.com/bioconductor/bioconductor_docker)
-
-- [Introduction to Docker](https://www.youtube.com/watch?v=Q5POuMHxW-0) - video presentation, 47 min, by Solomon Hykes
-
-- [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo) - video course, 2 h 10 min, with interactive labs, by freeCodeCamp.org
+- [Rockerverse](https://github.com/nuest/rockerverse-paper/) - Docker/containerization and R. Review of packages and applications for working with R in containers. Links to packages, examples of applications (Bioconductor, Data Science), deployment of R containers on the cloud. <details>
+    <summary>Paper</summary>
+     Nüst, Daniel, Dirk Eddelbuettel, Dom Bennett, Robrecht Cannoodt, Dav Clark, Gergely Daroczi, Mark Edmondson, et al. "The Rockerverse: Packages and Applications for Containerization with R" http://arxiv.org/abs/2001.10641 ArXiv:2001.10641 [Cs], January 28, 2020
+</details>
 
 - Boettiger, Carl. “[An Introduction to Docker for Reproducible Research](https://doi.org/10.1145/2723872.2723882).” ACM SIGOPS Operating Systems Review 49, no. 1 (January 20, 2015) - High-level Docker overview. Technical challenges, ways to address them (virtual machines). Docker concept of one pipeline - one image, dockerfiles, image versioning, using with RStudio, reusable modules, example commands, best practices
 
