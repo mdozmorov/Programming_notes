@@ -113,6 +113,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Code best practices
 
+- [readme-md-generator](https://github.com/kefranabg/readme-md-generator) - CLI README generator for software packages
+
 - [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/), book by Roger Peng
 
 - [Tips for organizing projects](http://kbroman.org/steps2rr/pages/organize.html), [Organizing data in spreadsheets](http://kbroman.org/dataorg/) by Karl Broman
