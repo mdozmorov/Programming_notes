@@ -50,6 +50,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software, https://awesome-go.com/
 
+- [awesome-nextflow](https://github.com/nextflow-io/awesome-nextflow) - A curated list of nextflow based pipelines, presentations, videos, tutorials.
+
 - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) - A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs. Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
