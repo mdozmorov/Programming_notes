@@ -202,6 +202,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Cloud
 
+- [paws](https://github.com/paws-r/paws) - aws is a Package for Amazon Web Services in R. Paws provides access to the full suite of AWS services from within R. 
+
 - [gcp-for-bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics) - Google Cloud Platform (GCP) for Bioinformatics, tutorials by [Lynn Langit](https://github.com/lynnlangit). [Youtube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z), more cloud courses at [Lynn's profile](https://github.com/lynnlangit).
 
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
