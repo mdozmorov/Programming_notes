@@ -56,6 +56,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs. Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
 
+- [useful-sed](https://github.com/adrianscheff/useful-sed) - awesome sed tips, techniques, one-liners, tutorials. By [Adrian Scheff](https://github.com/adrianscheff)
+
 ## Cheatsheets
 
 - [awesome-reproducible-research](https://github.com/leipzig/awesome-reproducible-research) - A curated list of reproducible research case studies, projects, tutorials, and media
