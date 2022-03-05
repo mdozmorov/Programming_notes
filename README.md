@@ -222,6 +222,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - Video: Amazon AWS Tutorial [#1, 22 min](https://www.youtube.com/watch?v=Xs0g_ZEv2bw), [#2, 13 min](https://www.youtube.com/watch?v=tMC4h-arGPA), [#3, 16 min](https://www.youtube.com/watch?v=z59TDrLSFx4)
 
+- [data-science-on-aws](https://github.com/data-science-on-aws/data-science-on-aws) - AI and Machine Learning with Kubeflow, Amazon EKS, and SageMaker. Code for the [Data Science on AWS](https://www.datascienceonaws.com/) book.
+
 - [SSH Tutorial for Linux](https://support.suso.com/supki/SSH_Tutorial_for_Linux)
 
 ## Git
