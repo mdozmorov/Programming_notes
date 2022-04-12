@@ -337,6 +337,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Introduction to Bioinformatics workflows with Nextflow and nf-core](https://carpentries-incubator.github.io/workflows-nextflow/aio/index.html) - The Carmentries workshop
 
+- [nextflow-gotchas](https://github.com/Midnighter/nextflow-gotchas) - A collection of unexpected challenges and learnings with nextflow and nf-core.
+
 ## Web
 
 - [magic-of-css](https://github.com/adamschwartz/magic-of-css) - A CSS course to turn you into a magician.
