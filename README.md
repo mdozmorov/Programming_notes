@@ -296,6 +296,9 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Makefiles
 
+- [Learn Makefiles](https://makefiletutorial.com/) With the tastiest examples, by 
+[Chase Lambert](https://github.com/theicfire). [GitHub](https://github.com/theicfire/makefiletutorial)
+
 - [Why Use Make](https://bost.ocks.org/mike/make/) blog post by Mike Bostock
 
 - [A minimal tutorial on make](http://kbroman.org/minimal_make/) by Karl Broman
