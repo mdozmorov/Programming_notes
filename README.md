@@ -216,6 +216,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [gcp-for-bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics) - Google Cloud Platform (GCP) for Bioinformatics, tutorials by [Lynn Langit](https://github.com/lynnlangit). [Youtube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z), more cloud courses at [Lynn's profile](https://github.com/lynnlangit).
 
+- [googleComputeEngineR](https://github.com/cloudyr/googleComputeEngineR) - An R interface to the Google Cloud Compute API, for launching virtual machines.
+
 - [hpc-toolkit](https://github.com/GoogleCloudPlatform/hpc-toolkit) - Cloud HPC Toolkit is an open-source software offered by Google Cloud which makes it easy for customers to deploy HPC environments on Google Cloud.
 
 ## AWS
