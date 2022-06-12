@@ -234,6 +234,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Amazing Guide to using Amazon Web Services (AWS)](https://github.com/dwyl/learn-amazon-web-services), illustrated step-by-step tutorial
 
+- [](https://github.com/aws/amazon-genomics-cli) - The Amazon Genomics CLI is a tool to simplify the processes of deploying the AWS infrastructure required to run genomics workflows in the cloud, to submit those workflows to run, and to monitor the logs and outputs of those workflows.
+
 - [awesome-aws-security](https://github.com/jassics/awesome-aws-security) - Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
 
 - [data-science-on-aws](https://github.com/data-science-on-aws/data-science-on-aws) - AI and Machine Learning with Kubeflow, Amazon EKS, and SageMaker. Code for the [Data Science on AWS](https://www.datascienceonaws.com/) book.
