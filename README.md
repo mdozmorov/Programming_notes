@@ -18,6 +18,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Docker](#docker)
   - [Kubernetes](#kubernetes)
 - [Cloud](#cloud)
+  - [GCP](#gcp)
+  - [AWS](#aws)
 - [Git](#git)
 - [Text](#text)
   - [Text mining](#text-mining)
@@ -204,13 +206,17 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Cloud
 
-- [paws](https://github.com/paws-r/paws) - aws is a Package for Amazon Web Services in R. Paws provides access to the full suite of AWS services from within R. 
-
-- [gcp-for-bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics) - Google Cloud Platform (GCP) for Bioinformatics, tutorials by [Lynn Langit](https://github.com/lynnlangit). [Youtube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z), more cloud courses at [Lynn's profile](https://github.com/lynnlangit).
-
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
 
 - [CloudBank](https://www.cloudbank.org/) - NSF-funded cloud computing for education, training, and allocation for cloud computing resources.
+
+- [SSH Tutorial for Linux](https://support.suso.com/supki/SSH_Tutorial_for_Linux)
+
+## GCP
+
+- [gcp-for-bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics) - Google Cloud Platform (GCP) for Bioinformatics, tutorials by [Lynn Langit](https://github.com/lynnlangit). [Youtube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z), more cloud courses at [Lynn's profile](https://github.com/lynnlangit).
+
+## AWS
 
 - [AWS Basics for Beginners - Full Course](https://youtu.be/ulprqHHWlng) - Video course (5h 27m) introducing topics from AWS basics to advanced cloud computing concepts. [Course code and files](https://digitalcloud.training/aws-basics-for-beginners-course-downloads/), 
 
@@ -220,11 +226,11 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Amazing Guide to using Amazon Web Services (AWS)](https://github.com/dwyl/learn-amazon-web-services), illustrated step-by-step tutorial
 
-- Video: Amazon AWS Tutorial [#1, 22 min](https://www.youtube.com/watch?v=Xs0g_ZEv2bw), [#2, 13 min](https://www.youtube.com/watch?v=tMC4h-arGPA), [#3, 16 min](https://www.youtube.com/watch?v=z59TDrLSFx4)
-
 - [data-science-on-aws](https://github.com/data-science-on-aws/data-science-on-aws) - AI and Machine Learning with Kubeflow, Amazon EKS, and SageMaker. Code for the [Data Science on AWS](https://www.datascienceonaws.com/) book.
 
-- [SSH Tutorial for Linux](https://support.suso.com/supki/SSH_Tutorial_for_Linux)
+- [paws](https://github.com/paws-r/paws) - aws is a Package for Amazon Web Services in R. Paws provides access to the full suite of AWS services from within R. 
+
+- Video: Amazon AWS Tutorial [#1, 22 min](https://www.youtube.com/watch?v=Xs0g_ZEv2bw), [#2, 13 min](https://www.youtube.com/watch?v=tMC4h-arGPA), [#3, 16 min](https://www.youtube.com/watch?v=z59TDrLSFx4)
 
 ## Git
 
