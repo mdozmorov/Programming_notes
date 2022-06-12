@@ -208,6 +208,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-cloudrun](https://github.com/steren/awesome-cloudrun) - A curated list of resources about all things Cloud Run
 
+- [cloud-run-faq](https://github.com/ahmetb/cloud-run-faq) - Unofficial FAQ and everything you've been wondering about Google Cloud Run.
+
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
 
 - [CloudBank](https://www.cloudbank.org/) - NSF-funded cloud computing for education, training, and allocation for cloud computing resources.
