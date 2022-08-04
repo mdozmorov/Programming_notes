@@ -312,6 +312,11 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Workflows
 
+- [GenPipes](https://bitbucket.org/mugqic/genpipes/src/master/) - Python pipeline framework for multi-step workflows. Over 12 pipelines for  RNA sequencing, chromatin immunoprecipitation sequencing, DNA sequencing, methylation sequencing, Hi-C, capture Hi-C, metagenomics, and Pacific Biosciences long-read assembly. Can be run via Docker. Creates executable scripts for PBS, SLURM, Batch, Daemon job schedulers. How to run: `<pipeline>.py -c myConfigurationFile -r myReadSetFile -s 1- X > Commands.txt && bash Commands.txt` where `<pipeline>` can be any of the 12 available pipelines and X is the step number desired. Commands.txt contains the commands that the system will execute. Input: FASTQ or BAM files. <details>
+  <summary>Paper</summary>
+  Bourgey, Mathieu, Rola Dali, Robert Eveleigh, Kuang Chung Chen, Louis Letourneau, Joel Fillon, Marc Michaud, et al. “GenPipes: An Open-Source Framework for Distributed and Scalable Genomic Analyses.” GigaScience 8, no. 6 (June 1, 2019): giz037. https://doi.org/10.1093/gigascience/giz037.
+</details>
+
 ### Makefiles
 
 - [Learn Makefiles](https://makefiletutorial.com/) With the tastiest examples, by 
