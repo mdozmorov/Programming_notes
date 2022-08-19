@@ -404,6 +404,8 @@ See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://g
 
 - [CMake Cookbook](https://github.com/dev-cafe/cmake-cookbook) - This repository collects sources for the recipes contained in the CMake Cookbook published by Packt and authored by Radovan Bast and Roberto Di Remigio
 
+- [Learn C Programming with Dr. Chuck (feat. classic book by Kernighan and Ritchie)](https://youtu.be/j-_s8f5K30I) - video course, 9h38m
+
 - [learngo](https://github.com/inancgumus/learngo) - 1000+ Hand-Crafted Go Examples, Exercises, and Quizzes
 
 - [linguist](https://github.com/github/linguist) - This library is used on GitHub.com to detect blob languages, ignore binary or vendored files, suppress generated files in diffs, and generate language breakdown graphs.
