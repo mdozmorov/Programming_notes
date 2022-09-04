@@ -377,6 +377,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [CSS Tutorial - Zero to Hero (Complete Course)](https://youtu.be/1Rs2ND1ryYc) - in depth video course by freeCodeCamp.org. [GitHub repository](https://github.com/Video-Lab/css-course-content) with the associated demo code
 
+- [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA) - [FreeCodeCamp](https://www.freecodecamp.org/news/learn-css-in-11-hours/) 11 hours video course for frontend web developers.
+
 - [Build a website with blogdown in R](https://erum2020.netlify.app/) presentation by Tatjana Kecojevic, [GitHub](https://github.com/TanjaKec/eRum2020)
 
 - [JavaScript for Data Science](https://js4ds.org) - detailed instructions by Maya Gans, Toby Hodges, and Greg Wilson
