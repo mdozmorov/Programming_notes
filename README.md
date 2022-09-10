@@ -356,6 +356,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [dg-wdl-tutorial](https://github.com/gvwilson/dg-wdl-tutorial) - Deep Genomics WDL tutorial, by Greg Wilson
 
+- [WDL101](https://youtu.be/u5hqgNPvBlk) - 1h video workshop on using WDL on [Terra](https://terra.bio/). [Workshop material](https://drive.google.com/drive/folders/14YB0bACeaAl1XYyiyhjZJ8yyrfvlMkhv)
+
 ### Nextflow
 
 - [nf-core](https://github.com/nf-core/) - community-curated guidelines for pipeline building using the Nextflow framework. Software bundled with pipelines using Conda, Docker/Singularity, [Bioconda](https://bioconda.github.io/), [Conda-forge](https://conda-forge.org/), [BioContainers](https://biocontainers.pro/) repositories. Software bundles (yaml environment built into Docker container), continuous integration, common structure, documentation, simplicity requirements for pipelines. Extension tools: [Flowcraft](https://github.com/assemblerflow/flowcraft) - A Nextflow pipeline assembler for genomics. [Pipeliner](https://github.com/montilab/pipeliner) - A flexible Nextflow-based framework for the definition of sequencing data processing pipelines. Similar concept - [Snakemake-workflows](https://github.com/snakemake-workflows). nf-core tools on [Bioconda](https://bioconda.github.io/recipes/nf-core/README.html) and [PyPi](https://pypi.org/project/nf-core/). [Available pipelines](https://nf-co.re/pipelines). <details>
