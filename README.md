@@ -52,6 +52,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software, https://awesome-go.com/
 
+- [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list for awesome kubernetes resources. Rendered [GitBook](https://ramitsurana.github.io/awesome-kubernetes/)
+
 - [awesome-nextflow](https://github.com/nextflow-io/awesome-nextflow) - A curated list of nextflow based pipelines, presentations, videos, tutorials.
 
 - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) - A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
