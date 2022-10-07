@@ -214,9 +214,14 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [cloud-run-faq](https://github.com/ahmetb/cloud-run-faq) - Unofficial FAQ and everything you've been wondering about Google Cloud Run.
 
+- [CloudBank](https://www.cloudbank.org/) - NSF-funded cloud computing for education, training, and allocation for cloud computing resources.
+
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
 
-- [CloudBank](https://www.cloudbank.org/) - NSF-funded cloud computing for education, training, and allocation for cloud computing resources.
+- [The Cancer Genomics Cloud (CGC)](https://www.cancergenomicscloud.org/) - scientific cloud computing by Seven Bridges. Contains many public datasets (TCGA, CCLE, etc.), controlled access supported. Uses AWS. Pipelines are packaged with Docker. Execution instructions are described using Common Workflow Language (CWL). <details>
+  <summary>Paper</summary>
+  Lau, Jessica W., Erik Lehnert, Anurag Sethi, Raunaq Malhotra, Gaurav Kaushik, Zeynep Onder, Nick Groves-Kirkby, et al. “The Cancer Genomics Cloud: Collaborative, Reproducible, and Democratized—A New Paradigm in Large-Scale Computational Research.” Cancer Research 77, no. 21 (November 1, 2017): e3–6. https://doi.org/10.1158/0008-5472.CAN-17-0387.
+</details>
 
 - [SSH Tutorial for Linux](https://support.suso.com/supki/SSH_Tutorial_for_Linux)
 
