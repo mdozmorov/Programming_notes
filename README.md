@@ -222,6 +222,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## GCP
 
+- [batch-samples](https://github.com/GoogleCloudPlatform/batch-samples) - step-by-step tutorials and code samples to learn how to use [Batch](https://cloud.google.com/batch) on Google Cloud. 
+
 - [gcp-for-bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics) - Google Cloud Platform (GCP) for Bioinformatics, tutorials by [Lynn Langit](https://github.com/lynnlangit). [Youtube playlist](https://www.youtube.com/playlist?list=PL4Q4HssKcxYvcixWS08UFaYIH7y4IAV0z), more cloud courses at [Lynn's profile](https://github.com/lynnlangit).
 
 - [googleComputeEngineR](https://github.com/cloudyr/googleComputeEngineR) - An R interface to the Google Cloud Compute API, for launching virtual machines.
