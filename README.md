@@ -411,6 +411,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [condacolab](https://github.com/conda-incubator/condacolab) - Install Conda and friends on Google Colab
 
+- [Diátaxis](https://diataxis.fr/) - A systematic framework for technical documentation authoring.
+
 - [netdata.cloud](https://www.netdata.cloud) - Real-time performance monitoring, done right! Over 200 zero-configuration-supported systems, hardware, containers, and applications, from Docker/Kubernetes to databases/web servers, and more.
 
 ### Other programming languages
