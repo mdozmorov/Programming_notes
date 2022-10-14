@@ -196,13 +196,15 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Kubernetes
 
+- [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
+
+- [Docker Containers and Kubernetes Fundamentals – Full Hands-On Course](https://youtu.be/kTp5xUtcalw) - video course to Learn Docker containers and Kubernetes, 6h. [Website](https://kubernetesacademy.online/), [GitHub](https://github.com/K8sAcademy/Fundamentals-HandsOn)
+
 - [Kubernetes The Hard Way On VirtualBox](https://github.com/mmumshad/kubernetes-the-hard-way) - Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.
 
 - [Kubernetes for Dummies](https://dev.to/stevenmcgown/kubernetes-for-dummies-5hmh) - introductory examples, by Steven McGown
 
 - [future-kubernetes](https://github.com/paciorek/future-kubernetes) - instructions for setting up and using a Kubernetes cluster for running R in parallel using the future package.
-
-- [Container Training](http://container.training/) - lecture notes and videos of various Docker, Kubernetes presentations
 
 - [Kubernetes Course - Full Beginners Tutorial](https://youtu.be/d6WC5n9G_sM) - 3 hour video tutorial on Kubernetes, by [Bogdan Stashchuk](https://stashchuk.com/all-courses). [GitHub](https://github.com/bstashchuk/k8s)
 
