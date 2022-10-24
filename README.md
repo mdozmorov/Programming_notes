@@ -10,7 +10,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [General](#general)
+- [Awesome](#awesome)
 - [Cheatsheets](#cheatsheets)
 - [Command line](#command-line)
   - [Courses](#courses)
@@ -36,7 +36,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## General
+## Awesome
 
 - [every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know
 
@@ -59,6 +59,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) - A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs. Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
+
+- [awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines) - A curated list of awesome open source workflow engines
 
 - [useful-sed](https://github.com/adrianscheff/useful-sed) - awesome sed tips, techniques, one-liners, tutorials. By [Adrian Scheff](https://github.com/adrianscheff)
 
