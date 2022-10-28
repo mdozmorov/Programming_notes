@@ -382,6 +382,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [nextflow-gotchas](https://github.com/Midnighter/nextflow-gotchas) - A collection of unexpected challenges and learnings with nextflow and nf-core.
 
+- [nf-training-public](https://github.com/seqeralabs/nf-training-public) - Nextflow training material, by SequeraLabs. [Website](https://training.seqera.io/)
+
 ## Web
 
 - [magic-of-css](https://github.com/adamschwartz/magic-of-css) - A CSS course to turn you into a magician.
