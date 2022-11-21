@@ -437,6 +437,8 @@ See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://g
 
 - [How_to_learn_modern_Rust](https://github.com/joaocarvalhoopen/How_to_learn_modern_Rust) - video and text resources for learning Rust
 
+- [project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Curated list of project-based tutorials in various programming languages, general purpose, web, many more.
+
 - [The Rust Programming Language](https://doc.rust-lang.org/book/) book, [Cookin' with Rust](https://rust-lang-nursery.github.io/rust-cookbook/intro.html) cookbook, [Why scientists are turning to Rust](https://www.nature.com/articles/d41586-020-03382-2) Nature technology feature
 
 - [Tutorials on Topics in Julia Programming](https://github.com/johnmyleswhite/julia_tutorials) - Mastering Julia for Statistical Computing and more
