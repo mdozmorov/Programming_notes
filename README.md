@@ -271,6 +271,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Git and GitHub guide](http://kbroman.org/github_tutorial/), by Karl Broman
 
+- [Git basics](https://www.golinuxcloud.com/git-basics/) by GoLinuxCloud
+
 - [Software Carpentry course on git](https://swcarpentry.github.io/git-novice/) 
 
 - [Happy Git and GitHub for the useR](http://happygitwithr.com/) by Jenny Bryan
