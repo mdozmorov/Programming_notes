@@ -451,3 +451,4 @@ See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://g
 
 - [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/) - Rcpp for everyone, by Masaki E. Tsuda. [GitHub](https://github.com/teuder/rcpp4everyone_en)
 
+- [Swift Programming Tutorial – Full Course for Beginners](https://youtu.be/8Xg7E9shq0U) - 7 hours video course
