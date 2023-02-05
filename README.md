@@ -220,6 +220,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [CloudBank](https://www.cloudbank.org/) - NSF-funded cloud computing for education, training, and allocation for cloud computing resources.
 
+- [serverless-architecture](https://github.com/lynnlangit/serverless-architecture) - 'Serverless Architecture' course at Linked In Learning, by Lynn Langit
+
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
 
 - [The Cancer Genomics Cloud (CGC)](https://www.cancergenomicscloud.org/) - scientific cloud computing by Seven Bridges. Contains many public datasets (TCGA, CCLE, etc.), controlled access supported. Uses AWS. Pipelines are packaged with Docker. Execution instructions are described using Common Workflow Language (CWL). <details>
