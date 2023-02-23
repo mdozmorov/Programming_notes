@@ -433,6 +433,8 @@ See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://g
 
 - [Java Programming for Beginners – Full Course](https://youtu.be/A74TOX803D0) - 4h 10m video course, from Hello World to Object Oriented Programming
 
+- [juliatutorial](https://github.com/sylvaticus/juliatutorial) - A tutorial for the Julia language inspired by the Python tutorial. Links to other resources.
+
 - [Learn C Programming with Dr. Chuck (feat. classic book by Kernighan and Ritchie)](https://youtu.be/j-_s8f5K30I) - video course, 9h38m
 
 - [learngo](https://github.com/inancgumus/learngo) - 1000+ Hand-Crafted Go Examples, Exercises, and Quizzes
