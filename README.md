@@ -293,6 +293,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [GitHub Actions for R](https://www.jimhester.com/talk/2020-rsc-github-actions/) 20 min video lecture by Jim Hester, RStudio::conf 2020
 
+- [act](https://github.com/nektos/act) - Run your GitHub Actions locally
+
 ## Text
 
 - [Curated Regular Expression Resources](https://paulvanderlaken.com/2020/04/07/curated-regular-expression-resources/), with videos
