@@ -38,14 +38,6 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ## Awesome
 
-- [every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know
-
-- [Learn any language X in Y minutes](https://github.com/adambard/learnxinyminutes-docs)
-
-- [List of Data Science Cheatsheets to rule the world](https://github.com/FavioVazquez/ds-cheatsheets), PDFs covering all programming languages, machine, deep learning
-
-- [Very large collection of free courses for all programming languages](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md), [interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md), [podcasts and screencasts](https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md), [books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md). And [more, translated in other languages](https://github.com/vhf/free-programming-books)
-
 - [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning) - A (not so) tiny list limited to the best JavaScript Learning Resources
 
 - [awesome-cpp](https://github.com/fffaraz/awesome-cpp) - A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things.
@@ -61,6 +53,16 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [awesome-readme](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs. Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
 
 - [awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines) - A curated list of awesome open source workflow engines
+
+- [every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know
+
+- [Learn any language X in Y minutes](https://github.com/adambard/learnxinyminutes-docs)
+
+- [List of Data Science Cheatsheets to rule the world](https://github.com/FavioVazquez/ds-cheatsheets), PDFs covering all programming languages, machine, deep learning
+
+- [professional-programming](https://github.com/charlax/professional-programming) - A collection of learning resources for curious software engineers, about coding and beyond (career development, databases, cloud, and more).
+
+- [Very large collection of free courses for all programming languages](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md), [interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md), [podcasts and screencasts](https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md), [books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md). And [more, translated in other languages](https://github.com/vhf/free-programming-books)
 
 - [useful-sed](https://github.com/adrianscheff/useful-sed) - awesome sed tips, techniques, one-liners, tutorials. By [Adrian Scheff](https://github.com/adrianscheff)
 
