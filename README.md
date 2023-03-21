@@ -277,6 +277,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Git basics](https://www.golinuxcloud.com/git-basics/) by GoLinuxCloud
 
+- [Getting starting with Git](https://github.com/BioinfGuru/gitTutorial) - a collection of resources on working with Git and Github.
+
 - [Software Carpentry course on git](https://swcarpentry.github.io/git-novice/) 
 
 - [Happy Git and GitHub for the useR](http://happygitwithr.com/) by Jenny Bryan
