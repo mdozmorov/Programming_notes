@@ -224,6 +224,11 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [serverless-architecture](https://github.com/lynnlangit/serverless-architecture) - 'Serverless Architecture' course at Linked In Learning, by Lynn Langit
 
+- [SkyPilot](https://github.com/skypilot-org/skypilot) - a framework for easily running machine learning workloads on any cloud through a unified interface. <details>
+  <summary>Paper</summary>
+  Yang, Zongheng, Zhanghao Wu, Michael Luo, Wei-Lin Chiang, Romil Bhardwaj, Woosuk Kwon, Siyuan Zhuang, et al. “SkyPilot: An Intercloud Broker for Sky Computing,” n.d.
+</details>
+
 - [The Open Science Grid](https://opensciencegrid.org/) - A national, distributed computing partnership for data-intensive research.
 
 - [The Cancer Genomics Cloud (CGC)](https://www.cancergenomicscloud.org/) - scientific cloud computing by Seven Bridges. Contains many public datasets (TCGA, CCLE, etc.), controlled access supported. Uses AWS. Pipelines are packaged with Docker. Execution instructions are described using Common Workflow Language (CWL). <details>
