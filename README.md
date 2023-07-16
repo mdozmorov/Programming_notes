@@ -52,6 +52,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs. Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
 
+- [awesome-storage](https://github.com/okhosting/awesome-storage) - A curated list of storage open source tools. Backups, redundancy, sharing, distribution, encryption, etc.
+
 - [awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines) - A curated list of awesome open source workflow engines
 
 - [every-programmer-should-know](https://github.com/mr-mig/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know
