@@ -127,6 +127,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 ### Tools
 
+- [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'. Ignores hidden files/folders by default.
+
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - recursively searches directories for a regex pattern while respecting your gitignore, binary files, hidden directories. Very fast.
 
 
