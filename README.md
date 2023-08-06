@@ -14,6 +14,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [Cheatsheets](#cheatsheets)
 - [Command line](#command-line)
   - [Courses](#courses)
+  - [Tools]
 - [Code best practices](#code-best-practices)
 - [Docker](#docker)
   - [Kubernetes](#kubernetes)
@@ -123,6 +124,10 @@ Programming learning and data analysis resources. Please, [contribute and get in
 - [data-science-at-the-command-line](https://www.datascienceatthecommandline.com/) - "Data Science at the Command Line" by Jeroen Janssens, [GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line)
 
 - [Command line for data science](https://blog.robertelder.org/data-science-linux-command-line/), with examples, videos
+
+### Tools
+
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - recursively searches directories for a regex pattern while respecting your gitignore, binary files, hidden directories. Very fast.
 
 
 ## Code best practices
