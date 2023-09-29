@@ -451,6 +451,8 @@ See [R_notes](https://github.com/mdozmorov/R_notes) and [Python_notes](https://g
 
 - [CMake Cookbook](https://github.com/dev-cafe/cmake-cookbook) - This repository collects sources for the recipes contained in the CMake Cookbook published by Packt and authored by Radovan Bast and Roberto Di Remigio
 
+- [Java Basics – Crash Course](https://youtu.be/GdzRzWymT4c) - Learn the basics of Java programming is this crash course for beginners. 3h 36m video course
+
 - [Java Programming for Beginners – Full Course](https://youtu.be/A74TOX803D0) - 4h 10m video course, from Hello World to Object Oriented Programming
 
 - [juliatutorial](https://github.com/sylvaticus/juliatutorial) - A tutorial for the Julia language inspired by the Python tutorial. Links to other resources.
