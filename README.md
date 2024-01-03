@@ -142,6 +142,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Data Organization in Spreadsheets, common mistakes](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
 
+- [Mastering-GitHub-Copilot-for-Paired-Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) - A 6 Lesson course teaching everything you need to know about harnessing GitHub Copilot and an AI Paired Programing resource.
+
 - [Software Carpentry reading material on software engineering and scientific computing](http://software-carpentry.org/reading/) 
 
 - [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) by Trey Causey
