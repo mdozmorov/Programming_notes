@@ -63,6 +63,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [List of Data Science Cheatsheets to rule the world](https://github.com/FavioVazquez/ds-cheatsheets), PDFs covering all programming languages, machine, deep learning
 
+- [mac-dev-setup](https://github.com/nicolashery/mac-dev-setup) - A beginner's guide to setting up a development environment on macOS
+
 - [professional-programming](https://github.com/charlax/professional-programming) - A collection of learning resources for curious software engineers, about coding and beyond (career development, databases, cloud, and more).
 
 - [Very large collection of free courses for all programming languages](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md), [interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md), [podcasts and screencasts](https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md), [books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md). And [more, translated in other languages](https://github.com/vhf/free-programming-books)
