@@ -352,6 +352,7 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [sqlime](https://github.com/nalgeon/sqlime) - Online SQLite playground, for debugging and sharing SQL snippets. [Web](http://sqlime.org/)
 
+- [sql-tutorial](https://github.com/gvwilson/sql-tutorial) - SQL in 100 Queries. [Website](https://gvwilson.github.io/sql-tutorial/)
 
 ## Workflows
 
