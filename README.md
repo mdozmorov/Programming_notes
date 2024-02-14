@@ -53,6 +53,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs. Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
 
+- [awesome-static-generators](https://github.com/myles/awesome-static-generators) - A curated list of static web site generators. [Website](https://myles.github.io/awesome-static-generators/)
+
 - [awesome-storage](https://github.com/okhosting/awesome-storage) - A curated list of storage open source tools. Backups, redundancy, sharing, distribution, encryption, etc.
 
 - [awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines) - A curated list of awesome open source workflow engines
