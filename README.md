@@ -448,6 +448,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [condacolab](https://github.com/conda-incubator/condacolab) - Install Conda and friends on Google Colab
 
+- [data_compression_course](https://github.com/jermp/data_compression_course) - A Crash Course on Data Compression.
+
 - [Diátaxis](https://diataxis.fr/) - A systematic framework for technical documentation authoring.
 
 - [netdata.cloud](https://www.netdata.cloud) - Real-time performance monitoring, done right! Over 200 zero-configuration-supported systems, hardware, containers, and applications, from Docker/Kubernetes to databases/web servers, and more.
