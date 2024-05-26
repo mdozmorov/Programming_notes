@@ -69,6 +69,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [professional-programming](https://github.com/charlax/professional-programming) - A collection of learning resources for curious software engineers, about coding and beyond (career development, databases, cloud, and more).
 
+- [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+
 - [Very large collection of free courses for all programming languages](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md), [interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md), [podcasts and screencasts](https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md), [books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md). And [more, translated in other languages](https://github.com/vhf/free-programming-books)
 
 - [useful-sed](https://github.com/adrianscheff/useful-sed) - awesome sed tips, techniques, one-liners, tutorials. By [Adrian Scheff](https://github.com/adrianscheff)
