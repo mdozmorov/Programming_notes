@@ -253,6 +253,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
   Lau, Jessica W., Erik Lehnert, Anurag Sethi, Raunaq Malhotra, Gaurav Kaushik, Zeynep Onder, Nick Groves-Kirkby, et al. “The Cancer Genomics Cloud: Collaborative, Reproducible, and Democratized—A New Paradigm in Large-Scale Computational Research.” Cancer Research 77, no. 21 (November 1, 2017): e3–6. https://doi.org/10.1158/0008-5472.CAN-17-0387.
 </details>
 
+- [The National Research Platform (NRP)](https://nationalresearchplatform.org/) - research computation infrastructure. [Documentation](https://ucsd-prp.gitlab.io/)
+
 - [SSH Tutorial for Linux](https://support.suso.com/supki/SSH_Tutorial_for_Linux)
 
 ## GCP
