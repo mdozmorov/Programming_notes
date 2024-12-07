@@ -77,6 +77,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [useful-sed](https://github.com/adrianscheff/useful-sed) - awesome sed tips, techniques, one-liners, tutorials. By [Adrian Scheff](https://github.com/adrianscheff)
 
+- [windows](https://github.com/dockur/windows) - Windows inside a Docker container.
+
 ## Cheatsheets
 
 - [awesome-reproducible-research](https://github.com/leipzig/awesome-reproducible-research) - A curated list of reproducible research case studies, projects, tutorials, and media
