@@ -67,6 +67,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [mac-dev-setup](https://github.com/nicolashery/mac-dev-setup) - A beginner's guide to setting up a development environment on macOS
 
+- [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) - Awesome list of open source applications for macOS.
+
 - [professional-programming](https://github.com/charlax/professional-programming) - A collection of learning resources for curious software engineers, about coding and beyond (career development, databases, cloud, and more).
 
 - [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
