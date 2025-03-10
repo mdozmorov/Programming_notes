@@ -239,6 +239,8 @@ Programming learning and data analysis resources. Please, [contribute and get in
 
 - [Kubernetes Course - Full Beginners Tutorial](https://youtu.be/d6WC5n9G_sM) - 3 hour video tutorial on Kubernetes, by [Bogdan Stashchuk](https://stashchuk.com/all-courses). [GitHub](https://github.com/bstashchuk/k8s)
 
+- [Learning Kubernetes](https://github.com/LinkedInLearning/learning-kubernetes-3212391) - repository for the [LinkedIn Learning course Learning Kubernetes](https://www.linkedin.com/learning/learning-kubernetes-revision-q4-2021-high-visibility).
+
 - [Using Kubernetes and the Future Package to Easily Parallelize R in the Cloud](https://www.r-bloggers.com/2021/04/using-kubernetes-and-the-future-package-to-easily-parallelize-r-in-the-cloud/) - how to use R on the Kubernetes cluster on Google Cloud. [Tweet](https://twitter.com/seandavis12/status/1380734816568504325?s=20)
 
 ## Cloud
